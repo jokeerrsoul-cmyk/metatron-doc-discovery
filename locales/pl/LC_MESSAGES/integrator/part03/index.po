@@ -8,23 +8,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: metatron discovery docs 0.4.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-29 12:55+0900\n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Polish <LL@li.org>\n"
 "Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 # 9c911b8a1db54333b19030ddda944e51
-#: ../../integrator/part03/index.rst:4
+#: ../../integrator/part03/index.rst:4 2c22aea8da784e4c9ad3a45dd52791e8
 msgid "워크플로우 에디터"
 msgstr ""
 
 # e330c4ff34d74e9a8e781fee447374bc
-#: ../../integrator/part03/index.rst:10
+#: ../../integrator/part03/index.rst:10 abf5758e649f42618c8195623443029d
 msgid ""
 "워크플로우 에디터는 선택한 Hadoop 워크플로우를 손쉽게 편집하고 실행을 스케줄링할 수 있는 GUI를 제공합니다. "
 ":ref:`workflow_list`\\에 열거된 워크플로우 중 하나를 클릭하면 워크플로우 에디터로 이동하며, 화면 구성은 아래와 "
@@ -32,43 +34,56 @@ msgid ""
 msgstr ""
 
 # fcf6003a49604b7fbb199e3dcefd1666
-#: ../../integrator/part03/index.rst:14
+#: ../../integrator/part03/index.rst:14 dd7987c57df94c01ad419a4ec1bfae17
 msgid ""
 "**워크플로우 노드 선택 영역:** 워크플로우에 추가할 노드들을 선택하는 영역입니다. |unfold| 버튼을 클릭하면 패널이 "
 "확장되어 각 노드의 명칭을 확인할 수 있습니다. 다음과 같은 두 종류의 노드로 구분됩니다."
 msgstr ""
 
+#: ../../integrator/part03/index.rst:6 97b187a7d5684cb793cb72e1d30114ad
+msgid "unfold"
+msgstr ""
+
 # 1ae4ef4bdba1468092bcb485bcebafdf
-#: ../../integrator/part03/index.rst:16
+#: ../../integrator/part03/index.rst:16 7d6850ba8e4d47ef92d143506f9950f9
 msgid ""
 "**액션 노드(에디터에서 'Task'로 분류):** 원천 데이터를 Hadoop 클러스터에서 수집·가공·적재하기 위한 각각의 연산처리"
 " 작업을 정의합니다. 자세한 내용은 :ref:`action_nodes` 항목을 참조하십시오."
 msgstr ""
 
 # 82bd121d52424a9aaef3ccae85a920c4
-#: ../../integrator/part03/index.rst:17
+#: ../../integrator/part03/index.rst:17 d5083b64ce9741f7b3ae810b8b8c5936
 msgid ""
 "**제어 흐름 노드(에디터에서 'General'로 분류):** 워크플로우의 시작과 끝을 정의하고, 액션 노드들의 흐름 경로를 "
 "결정하는 역할을 합니다. 자세한 내용은 :ref:`control_flow_nodes` 항목을 참조하십시오."
 msgstr ""
 
 # 14087b4952f3496faf8462e830ae6ec1
-#: ../../integrator/part03/index.rst:19
+#: ../../integrator/part03/index.rst:19 6a8a88383e5f487fa038c7e18055095b
 msgid ""
 "**워크플로우 차트 캔버스:** 추가한 노드들 간의 시퀀스를 정의하는 영역입니다. 아래 그림과 같이 노드 선택 영역에서 원하는 "
 "노드들을 캔버스로 드래그한 후, 원하는 시퀀스에 맞춰서 노드끼리 연결을 하면 워크플로우 차트가 간단하게 완성됩니다."
 msgstr ""
 
 # 56e8cf1f0afe454598d09128e59a33a4
-#: ../../integrator/part03/index.rst:23
+#: ../../integrator/part03/index.rst:23 5a080e42969c40d090453a421d9af9a2
 msgid ""
 "영역 상단에 있는 |do| 버튼을 사용하여 undo와 redo가 가능하며, |play| 버튼을 클릭하면 현재 정의된 워크플로우가 "
 "실행됩니다. 또한 **Draft** 버튼을 클릭하면 현재까지 작업한 워크플로우가 저장되고, **Save** 버튼을 클릭하면 실제 "
 "워크플로우로서 반영이 됩니다."
 msgstr ""
 
+#: ../../integrator/part03/index.rst:8 6b76a0d6d5994cad840ca61a7f4378d9
+msgid "do"
+msgstr ""
+
+#: ../../integrator/part03/index.rst:7 462404ce9d954dcd84fc27eb9088d98f
+#: 8e1cbceb397f4ae49a801ea24f02dfe3
+msgid "play"
+msgstr ""
+
 # a0719a121d984d9fadff4091eb059bf7
-#: ../../integrator/part03/index.rst:25
+#: ../../integrator/part03/index.rst:25 4024d8247f3747cf9d4b74d7bb354489
 msgid ""
 "**워크플로우 노드 설정 영역:** 워크플로우 차트 캔버스에서 선택한 각 개별 노드의 상세 작업 내역을 설정하는 영역입니다. 자세한"
 " 설정 방식은 :ref:`action_nodes` 및 :ref:`control_flow_nodes`\\에서 해당 노드 항목을 "
@@ -76,23 +91,24 @@ msgid ""
 msgstr ""
 
 # 313529457cf34e31bfcd9d38ba281ded
-#: ../../integrator/part03/index.rst:26
+#: ../../integrator/part03/index.rst:26 5ea7e23094cb4ca19de889e5aee1d34a
 msgid "**워크플로우 실행 내역 표시 영역:** 정의된 워크플로우의 실행 내역을 보여주는 영역입니다."
 msgstr ""
 
 # 3938d3691dc44599b7af467f7e9e5288
-#: ../../integrator/part03/index.rst:28
+#: ../../integrator/part03/index.rst:28 a7cff8d0e79d43a9a17e083096988fcf
 msgid "**Manual run 탭:** 에디터 좌측 상단에 있는 |play| 버튼을 클릭하여 수동으로 워크플로우를 실행한 내역을 보여줍니다."
 msgstr ""
 
 # 7f27a084b88046a0ba72d46d2f70dc07
-#: ../../integrator/part03/index.rst:29
+#: ../../integrator/part03/index.rst:29 e416e6c43de54e8fa55127f934abc13c
 msgid ""
 "**Scheduled run 탭:** 정해진 시간에 따라 워크플로우 실행을 예약하는 UI를 제공하고 예약된 내역을 보여줍니다. "
 "자세한 내용은 :ref:`scheduled_run` 항목을 참조하십시오."
 msgstr ""
 
 # 5ecb7a1337534d1886ee5770700c7602
-#: ../../integrator/part03/index.rst:31
+#: ../../integrator/part03/index.rst:31 0828cdddf31c40dab71222eb27afd3c3
 msgid "워크플로우 에디터 사용을 위해 보다 상세한 설명이 필요한 부분에 관해서는 아래와 같이 정리하였습니다."
 msgstr ""
+

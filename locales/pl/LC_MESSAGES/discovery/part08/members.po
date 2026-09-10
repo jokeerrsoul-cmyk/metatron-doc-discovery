@@ -8,96 +8,103 @@ msgid ""
 msgstr ""
 "Project-Id-Version: metatron discovery docs 0.4.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-22 21:30+0900\n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Polish <LL@li.org>\n"
 "Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 # 42627b522728429da4c15e6d7e03acc6
-#: ../../discovery/part08/members.rst:4
+#: ../../discovery/part08/members.rst:4 d6d77bff9a8c4032965c680b73066daf
 msgid "멤버"
 msgstr ""
 
 # fcee7e63d98248b2b1fbb50e2e124504
-#: ../../discovery/part08/members.rst:6
+#: ../../discovery/part08/members.rst:6 e68cedc0d4fd4be8b7bf1d62c892efe9
 msgid "이 메뉴에서는 등록을 마친 사용자들을 열람·관리할 수 있습니다."
 msgstr ""
 
 # b8e36ff14671451abafde97a7c1cae01
-#: ../../discovery/part08/members.rst:8
+#: ../../discovery/part08/members.rst:8 f512e0a4a2014929bf8de535a14dc520
 msgid "Metatron Discovery 가입은 다음 두 방법 중 하나로 이루어집니다."
 msgstr ""
 
 # 9cd2a829999b4f099702f0e1fd8da98f
-#: ../../discovery/part08/members.rst:10
+#: ../../discovery/part08/members.rst:10 9d094d98466c47da8a45117526d1da65
 msgid "사용자가 회원 가입 신청 후 관리자가 승인(:ref:`membership_approval` 참조)"
 msgstr ""
 
 # f99601c03e0649338ccdc1ea43472aa1
-#: ../../discovery/part08/members.rst:11
+#: ../../discovery/part08/members.rst:11 26b2c67d5e704ce9b0edde87b22d98ad
 msgid "관리자가 직접 등록(:ref:`user_registration` 참조)"
 msgstr ""
 
 # cc0bde8cc4334775965a6a463a1faaf2
-#: ../../discovery/part08/members.rst:14
+#: ../../discovery/part08/members.rst:14 9ac715841e714f368088aa7f20104263
 msgid "멤버 홈 화면"
 msgstr ""
 
 # c5629b45e15b41b3a8a290cd6e8f9975
-#: ../../discovery/part08/members.rst:16
+#: ../../discovery/part08/members.rst:16 60ecc448ec824a1abfb9040c7217415f
 msgid ""
 "멤버 홈 화면에서는 Metatron Discovery 시스템에 가입된 사용자들을 열거하여 보여줍니다. 사용자 목록은 여러 기준으로 "
 "필터링할 수 있으며, 목록에 나타난 사용자 중 하나를 클릭하여 해당 사용자의 정보를 열람·수정할 수 있습니다."
 msgstr ""
 
 # 648807162785491d9dbeb52bea4f4ad1
-#: ../../discovery/part08/members.rst:22
+#: ../../discovery/part08/members.rst:22 5fe5bfd2147e47b4af5b914d560f0dfd
 msgid "사용자 정보 열람 및 수정"
 msgstr ""
 
 # e4a681cca8a344a982e66a20bc5d61ad
-#: ../../discovery/part08/members.rst:24
+#: ../../discovery/part08/members.rst:24 98fb9dd39e02467186728bb7cc72f288
 msgid "홈 화면 목록에 나타난 사용자 중 하나를 클릭하면, 아래와 같이 해당 사용자의 정보를 보여주는 화면으로 이동합니다."
 msgstr ""
 
 # acb4b9c173cd4b6a81ddd2936640b19c
-#: ../../discovery/part08/members.rst:28
+#: ../../discovery/part08/members.rst:28 678138503526496da7c1cea36726cb1a
 msgid "이 화면에서는 기본 정보 열람과 더불어 몇 가지 설정이 가능합니다."
 msgstr ""
 
 # 3af48a841e4b4d55a7c0bb0d719af640
-#: ../../discovery/part08/members.rst:30
+#: ../../discovery/part08/members.rst:30 2236b8f49a1e422eb8f716fb1a5ae708
 msgid "**상태 설정(활성화/비활성화)**: 해당 사용자를 비활성화시키면 시스템에 로그인할 수 없게 됩니다."
 msgstr ""
 
 # 96594994c52241bfb12a209489a19ab5
-#: ../../discovery/part08/members.rst:31
+#: ../../discovery/part08/members.rst:31 00dd3fb93997446ab86fa9b10b4640c6
 msgid "**패스워드 초기화**: 해당 사용자가 비밀번호를 잊어버린 경우, 비밀번호를 초기화할 수 있는 메일을 보내줍니다."
 msgstr ""
 
 # 9e0e3bd08d524b0aad5cdf2e080396ba
-#: ../../discovery/part08/members.rst:32
+#: ../../discovery/part08/members.rst:32 03f3286c943e47f9994247df12af163e
 msgid ""
 "**그룹 설정**: |setup| 아이콘을 클릭하면 해당 사용자가 속한 그룹을 추가·삭제할 수 있습니다. 그룹과 관련된 설명은 "
 ":ref:`user_groups` 항목을 참조하십시오."
 msgstr ""
 
+#: ../../discovery/part08/members.rst:1 10cbed71fe964de680008f7727de6f5a
+msgid "setup"
+msgstr ""
+
 # 7b68c781da9e47f5bfe0d6439c3f1d40
-#: ../../discovery/part08/members.rst:37
+#: ../../discovery/part08/members.rst:37 7f65e32216ba48b8bda42447ec696cdc
 msgid "사용자 등록"
 msgstr ""
 
 # 18e9e082c8364940b262740da60f55cd
-#: ../../discovery/part08/members.rst:39
+#: ../../discovery/part08/members.rst:39 e2263863e48a45e9b8dd5ad077934e05
 msgid "홈 화면 우측 상단에서 :guilabel:`사용자 생성` 버튼을 클릭하면 아래와 같은 사용자 생성 팝업이 나타납니다."
 msgstr ""
 
 # f367a07807c941ba9a42e786d27dfd52
-#: ../../discovery/part08/members.rst:43
+#: ../../discovery/part08/members.rst:43 fbf12479314643baade787c8ce2bd928
 msgid "사용자의 실명과 ID, 이메일을 입력하면 사용자 등록이 완료되며, 해당 메일 주소로 가입 내역이 전달됩니다."
 msgstr ""
+

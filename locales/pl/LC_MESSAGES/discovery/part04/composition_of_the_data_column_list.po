@@ -8,23 +8,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: metatron discovery docs 0.4.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-12 19:16+0900\n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Polish <LL@li.org>\n"
 "Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 # 071c265923e7426eb342084fead16736
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:2
+#: 7ac1c05d16ae4a66959f6df04fe70dc0
 msgid "데이터 컬럼 리스트"
 msgstr ""
 
 # ebbea5f4238f43838310440c30ee0eac
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:4
+#: ca537e8bffea47f1977a82ecfdec3c48
 msgid ""
 "데이터 컬럼 리스트에 나열되는 컬럼들은 '차원값' 컬럼과 '측정값' 컬럼으로 분류됩니다. 차원값과 측정값의 개념에 대한 자세한 "
 "설명은 :doc:`../part02/dimension_and_measures` 항목을 참조하십시오."
@@ -32,31 +36,37 @@ msgstr ""
 
 # 415c375c1b70484b995245bd1775de37
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:7
+#: 951265c8458e45c2badf39a4426215e9
 msgid "데이터 컬럼 리스트 구성"
 msgstr ""
 
 # 37aca08e10634414884895b87f7a48e7
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:12
+#: d6992091a2944c2b8595b887c9664e05
 msgid "데이터 컬럼 리스트에서는 연동된 데이터 소스들의 정보를 열람·수정하고, 컬럼 필터를 간편하게 추가하거나 제거할 수 있습니다."
 msgstr ""
 
 # 58ff1c3ca61549cca46b66d76e0842eb
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:16
+#: 7c204ef154c34f3ebd22b3aae1661695
 msgid "**데이터 소스 선택/설정:** 데이터 소스를 선택하거나 해당 데이터 소스의 연결/join 관계를 설정합니다."
 msgstr ""
 
 # a5effbfad10e4700a4626fb1968d8301
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:17
+#: 7dd78126c5c3441796076434e0cf64b1
 msgid "**데이터 상세:** 클릭하면 새 대화 상자를 통해 선택된 데이터 소스에 관한 정보를 보여줍니다"
 msgstr ""
 
 # 8d907267b78d44e8b56a56ef1f5d712e
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:18
+#: 6510f87592ee4d52a1e60fcdd9c182bb
 msgid "**컬럼 이름으로 검색:** 데이터 소스 내 컬럼을 이름으로 검색합니다."
 msgstr ""
 
 # 84bf9dcdf5cc4959ba7247a00a73a531
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:19
+#: 15fb20707e53469e8104f36f57244425
 msgid ""
 "**사용자 컬럼 추가:** 클릭하면 데이터 소스에 있는 컬럼들을 조합·가공하여 새로운 컬럼을 만들 수 있는 대화 상자가 열립니다. "
 "추가된 사용자 컬럼은 대시보드 전체에서 사용할 수 있습니다."
@@ -64,33 +74,49 @@ msgstr ""
 
 # f5854b6ad0074f8f8a3318ebcb0f0bcd
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:20
+#: 747557ad851f40229676aad2f3110647
 msgid ""
 "**필터 지정/해제:** 이 버튼은 해당 컬럼에 마우스를 오버하면 생기며, 클릭 시 해당 컬럼을 차트 필터로 지정하고 다시 한번 "
 "클릭하면 지정된 차트 필터가 해제됩니다. 필터로 지정된 컬럼 항목에는 |more| 아이콘이 마우스 오버와 상관 없이 표시됩니다."
 msgstr ""
 
+#: ../../discovery/part04/composition_of_the_data_column_list.rst:10
+#: 77038eb4960b4254b2e604bf4200e7a5
+msgid "more"
+msgstr ""
+
 # ef1e994a3181401fa6e7373e7fc64fe5
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:21
+#: 2dc0cb05777e4a028cc264cb4bf03d87
 msgid "**더 보기:** 이 버튼은 해당 컬럼에 마우스를 오버하면 생기며, 컬럼에 대한 추가적인 정보를 확인하고 별칭을 지정할 수 있습니다."
 msgstr ""
 
 # c1e19bed08b941ef9fc95a91ea6e4723
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:23
+#: 8db85d2c51134486bdcbfbe640252041
 msgid "|info| : 클릭하면 새 대화 상자가 나타나면서 해당 컬럼의 요약 정보와 데이터 값들을 보여줍니다."
+msgstr ""
+
+#: ../../discovery/part04/composition_of_the_data_column_list.rst:9
+#: d7bb86d8cc70452f976305aa077d5825
+msgid "info"
 msgstr ""
 
 # 4ad44def660c44009d8c73f0283a223f
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:24
+#: e89dcce42a06452eb51c43b55e6176d7
 msgid "**논리 컬럼 이름:** 해당 컬럼의 논리적 컬럼명을 보여줍니다."
 msgstr ""
 
 # 36c22f14440346faa5077fabfde1cffc
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:25
+#: 1b780ea8911946ef8a8a9c94cbed0bea
 msgid "**타입:** 해당 컬럼의 논리적 데이터 타입을 보여줍니다."
 msgstr ""
 
 # 95e3c73cf42742c088fd98cc7a1b9fdc
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:26
+#: 6f36abc074d34e24b91d73e3b1d36040
 msgid ""
 "**Alias:** 해당 컬럼에 대한 별칭을 지정할 수 있습니다. 정식 컬럼명은 영숫자와 몇 가지 특수문자로 제한되며 공백도 포함할"
 " 수 없기 때문에 보다 구분하기 편한 별칭을 등록하면 분석 시 편의를 도모할 수 있습니다. 지정된 별칭은 대시보드 전체에 "
@@ -99,16 +125,19 @@ msgstr ""
 
 # 4986eeb4f11d46a082ef1f0bf5b502f4
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:27
+#: c1b943f6aa06428fb96f8233ac1822b7
 msgid "**값 별칭:** 해당컬럼에포함된각데이터값에대해서도별칭을지정할수있습니다. 지정된 별칭은 대시보드 전체에 적용됩니다."
 msgstr ""
 
 # dced1f94c5bd4a41aa88121f4f0e9a7e
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:30
+#: 48aa706442244880b3a9fedd24fbc740
 msgid "사용자 컬럼 추가"
 msgstr ""
 
 # cd758260a56f4365986f154a715a5a2d
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:32
+#: 6d4ea7e9b9a24f0ab6ec9810d4835718
 msgid ""
 "데이터 소스 컬럼 리스트에서 + 버튼을 클릭하면 사용자 컬럼 추가를 위한 대화 상자가 열립니다. 여기서는 데이터 소스에 있는 기존 "
 "컬럼들에 각종 공식을 적용하여 차트를 만드는 데 필요한 새로운 컬럼을 만들 수 있습니다."
@@ -116,11 +145,13 @@ msgstr ""
 
 # 71675a4311b34b71a71ad1bcbf039c70
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:36
+#: bd94aa212ae642dfa74c7a747ae297ba
 msgid "**컬럼 이름:** 사용자 컬럼의 이름을 적는 란입니다."
 msgstr ""
 
 # 0ca3492a3416492e9562fbb05fdb5618
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:37
+#: 899afd39af74436ea8e96e45c7832ae5
 msgid ""
 "**코드 영역:** 사용자 컬럼을 만들기 위한 코드를 적는 란입니다. 아래의 컬럼 및 공식 목록에서 원하는 목록을 클릭하면 이 "
 "영역에 자동으로 타이핑 됩니다."
@@ -128,6 +159,7 @@ msgstr ""
 
 # 9fe5b37518c8429898faf2c67519136c
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:38
+#: 4ad64c6cabd14ee9a60bcdef7401d224
 msgid ""
 "**컬럼 추가:** 데이터 소스에 주어진 기존 컬럼 목록입니다. 목록에 제시된 컬럼 항목 중 하나를 클릭하면 해당 컬럼이 코드 "
 "영역에 자동으로 타이핑됩니다."
@@ -135,8 +167,10 @@ msgstr ""
 
 # 59e02487502f4bc0bdf865aabc2a42ed
 #: ../../discovery/part04/composition_of_the_data_column_list.rst:39
+#: a3833e840bc8456aa013a688572f98da
 msgid ""
 "**공식 추가:** Metatron에서 지원하는 공식 목록입니다. 목록에 제시된 공식 중 하나를 클릭하면 해당 공식이 코드 영역에 "
 "자동으로 타아핑되고 타이핑 커서가 파라미터를 입력하는 부분으로 자동 이동됩니다. 각 공식의 용도와 사용법, 예제에 관해서는 화면 "
 "우측의 도움말 상자를 참조하세요."
 msgstr ""
+

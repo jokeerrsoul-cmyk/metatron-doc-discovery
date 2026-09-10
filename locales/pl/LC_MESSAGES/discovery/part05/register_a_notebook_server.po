@@ -6,23 +6,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: metatron discovery docs 0.4.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-19 14:45+0900\n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Polish <LL@li.org>\n"
 "Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 # 6b79c898af2b4618a67a8bff11f250c9
 #: ../../discovery/part05/register_a_notebook_server.rst:2
+#: dab804be308443dbb9af40c6f3052c35
 msgid "노트북 서버 등록하기"
 msgstr ""
 
 # e7f09f477eef4079830617172a1c3c93
 #: ../../discovery/part05/register_a_notebook_server.rst:6
+#: acd703302af541f08b529161132b7a23
 msgid ""
 "워크스페이스에서 노트북 기능을 이용하여 데이터를 분석하기 위해서는 노트북 서버 초기 설정이 필요합니다. 노트북 서버 초기 설정 "
 "절차는 다음과 같습니다."
@@ -30,11 +34,23 @@ msgstr ""
 
 # 6fe40a01dc434e6290a678f1cec2e3f4
 #: ../../discovery/part05/register_a_notebook_server.rst:8
+#: e0bf12f18f05492e97bb19779ab05cd9
 msgid "워크스페이스의 우측 상단에 있는 |icon_more| 버튼을 클릭한 후 :guilabel:`노트북 서버 설정`\\을 선택합니다."
+msgstr ""
+
+#: ../../discovery/part05/register_a_notebook_server.rst:4
+#: 8834989e889741b683a3d9cc3394ef0b
+msgid "icon_more"
+msgstr ""
+
+#: ../../discovery/part05/register_a_notebook_server.rst:10
+#: 6ebbec92b4b94c04ab94e82805d33944
+msgid "워크스페이스 관리 홈 화면에서 노트북 서버 설정"
 msgstr ""
 
 # 4d9ca083823a473b8c951de16a58944c
 #: ../../discovery/part05/register_a_notebook_server.rst:14
+#: c01717291dfc4b7b850b0c51280e7b01
 msgid ""
 "관리자가 사전에 등록해 둔 Jupyter, Zeppelin 서버 목록 중에서 본인 워크스페이스에서 연결해서 사용하고자 하는 노트북 "
 "서버를 선택 후 :guilabel:`마침`\\ 버튼을 클릭합니다."
@@ -42,5 +58,12 @@ msgstr ""
 
 # 32bcc5831f3b44029c1b29840418d0d7
 #: ../../discovery/part05/register_a_notebook_server.rst:16
+#: cc8abea9b081440a8d4835e1bc442193
 msgid "아무 서버도 선택하지 않고자 한다면, **(없음)** 항목을 선택하십시오."
 msgstr ""
+
+#: ../../discovery/part05/register_a_notebook_server.rst:18
+#: 6ff589a14df648e7a15386f11eb5308d
+msgid "노트북 서버 세팅"
+msgstr ""
+

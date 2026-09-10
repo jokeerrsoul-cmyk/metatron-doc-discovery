@@ -8,23 +8,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: metatron discovery docs 0.4.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 16:43+0900\n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Polish <LL@li.org>\n"
 "Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 # c37559a529254e7394e48930d675a8d7
-#: ../../anomaly/part04/model_manager.rst:2
+#: ../../anomaly/part04/model_manager.rst:2 85386105d1484930bb21cd8d0b48952a
 msgid "모델 매니저"
 msgstr ""
 
 # 44859274efe443549b580bd4d5c465cc
-#: ../../anomaly/part04/model_manager.rst:9
+#: ../../anomaly/part04/model_manager.rst:9 993244e33b514a77918bf0899ea1318c
 msgid ""
 "시계열 데이터에 머신러닝 모델을 적용했을 때, 일반적으로 시간이 지나면 데이터 패턴이 변하고 모델의 정확도가 점차 하락하는 문제점이"
 " 발생합니다. 이 경우 데이터 과학자들은 데이터 관리자에게 요청하여 신규 데이터를 가져온 다음 직접 모델을 재학습시켜 일정 수준 "
@@ -32,84 +34,125 @@ msgid ""
 msgstr ""
 
 # c4c855115222495e8aea8e4cd6d5c802
-#: ../../anomaly/part04/model_manager.rst:11
+#: ../../anomaly/part04/model_manager.rst:11 0bad25e017b5489ca2ba178455c3bda7
 msgid ""
 "**Metatron Anomaly**\\는 데이터 과학자, 데이터 관리자가 아닌 일반 사용자들도 쉽게 모델을 재학습할 수 있는 "
 "**모델 매니저** 기능을 지원합니다."
 msgstr ""
 
 # 809512492f3b4e80985a0f8c7c2981cb
-#: ../../anomaly/part04/model_manager.rst:13
+#: ../../anomaly/part04/model_manager.rst:13 a919af3f215941e79b593a823a3e5403
 msgid "모델 매니저는 다음의 기능들로 이루어집니다."
 msgstr ""
 
 # 0fd1e1ff72954821804c7e87927864a0
-#: ../../anomaly/part04/model_manager.rst:15
+#: ../../anomaly/part04/model_manager.rst:15 c25461eaf29d4f24b78bc2a3d11e5473
 msgid ":ref:`model_accuracy`"
 msgstr ""
 
 # 4c0054f22a164765be285ab8a47bb341
-#: ../../anomaly/part04/model_manager.rst:16
+#: ../../anomaly/part04/model_manager.rst:16 ffcff93201c343cebb8bc016e26522a3
 msgid ":ref:`model_retraining`"
 msgstr ""
 
 # 85caf8c8c0f14f6d940d4f1147423485
-#: ../../anomaly/part04/model_manager.rst:17
+#: ../../anomaly/part04/model_manager.rst:17 563514f1bdae4b6b9ea0eac02cba8ef4
 msgid ":ref:`model_comparison`"
 msgstr ""
 
 # 1190c2737dd14e5583ada95029423808
-#: ../../anomaly/part04/model_manager.rst:20
+#: ../../anomaly/part04/model_manager.rst:20 51f756ac49a943ab8ed5163058f32816
 msgid "생성된 알람 룰 상세 페이지 우측 메뉴의 |icon_model| 아이콘을 누르면 모델 매니저로 진입합니다."
 msgstr ""
 
+#: ../../anomaly/part04/model_manager.rst:4 a3a9d3502b124cd292a963b38b0bf305
+msgid "icon_model"
+msgstr ""
+
+#: ../../anomaly/part04/model_manager.rst:22 90189c28a81a40049ff8e45077f5c016
+msgid "model manager"
+msgstr ""
+
 # 392944a1a075421992a8d27d2dec6689
-#: ../../anomaly/part04/model_manager.rst:29
+#: ../../anomaly/part04/model_manager.rst:29 6ce9f3ef5c824040aedfc80ee9b761a8
 msgid "모델 정확도 변동 추이"
 msgstr ""
 
 # 49ebd53702414ee2aeec4bbe344f0f0e
-#: ../../anomaly/part04/model_manager.rst:31
+#: ../../anomaly/part04/model_manager.rst:31 70d20b43ac1b4fe9a9ec7d48ea71d2e6
 msgid ""
 "상단에서는 모델 정확도가 가장 최근 학습했을 때보다 얼마나 증가하거나 떨어졌는지 보여주며, 그래프에 마우스 오버하면 기간에 따라서 "
 "정확도 점수가 변화하는 것을 수치로 보여줍니다. 하단에는 현재 적용된 모델의 정보 및 적용 시점이 표기됩니다."
 msgstr ""
 
+#: ../../anomaly/part04/model_manager.rst:33 783a26c6b20e4d7f9b0698ef7b643fd6
+msgid "model accuracy"
+msgstr ""
+
 # 94029842022348109bf05d2480809356
-#: ../../anomaly/part04/model_manager.rst:41
+#: ../../anomaly/part04/model_manager.rst:41 ec5e864d688a44deb5401e8290cc04a9
 msgid "모델 재학습 및 학습 이력"
 msgstr ""
 
 # e1e0dc625a704d959b5fbcf1335435d9
-#: ../../anomaly/part04/model_manager.rst:43
+#: ../../anomaly/part04/model_manager.rst:43 7da6a4e233744f73bcaa24b815ce288e
 msgid ""
 "만약 정확도가 원하는 수치보다 떨어졌을 경우 우측 상단의 **Train** 버튼을 눌러 재학습할 수 있습니다. 재학습 대상이 될 "
 "학습 데이터 범위와 알고리즘 종류를 선택하고 Train을 누르면 재학습을 시작합니다."
 msgstr ""
 
+#: ../../anomaly/part04/model_manager.rst:45 98946f0dc737451eb5a7683402c14664
+msgid "model retraining"
+msgstr ""
+
 # 4744ae481c9943a88d7dc0eea7a2daee
-#: ../../anomaly/part04/model_manager.rst:50
+#: ../../anomaly/part04/model_manager.rst:50 29baefdd82804c6fa203aed8568a2aed
 msgid ""
 "재학습이 시작되면 Training History에서 지금 시간으로 기록된 메뉴에서 학습 현황을 볼 수 있습니다. 또한 리스트에서 "
 "과거에 학습한 내역 또한 확인할 수 있습니다."
 msgstr ""
 
+#: ../../anomaly/part04/model_manager.rst:52 f1891403356b48bb8525e3e3e396598d
+msgid "model history"
+msgstr ""
+
 # 4745b216517e4bc5b1be824883caaa3e
-#: ../../anomaly/part04/model_manager.rst:60
+#: ../../anomaly/part04/model_manager.rst:60 4d7bf0772ab2406b8c4f34cc21234b9f
 msgid "모델 비교 및 신규 모델 적용"
 msgstr ""
 
 # 81af567d309b44d0b51d1f5d1234ca6b
-#: ../../anomaly/part04/model_manager.rst:62
+#: ../../anomaly/part04/model_manager.rst:62 883a60d2cc144f2ab8e4b535ffedaf0d
 msgid ""
 "신규 모델 우측의 |icon_comparison| 아이콘을 누르면 기존에 적용된 모델과 신규 학습한 모델을 비교할 수 있습니다. 기"
 " 적용된 모델은 파란색, 신규로 선택한 모델은 분홍색으로 표시되어 그래프 상에서 두 모델의 예측값과 Abnormal Score 값을"
 " 비교할 수 있습니다."
 msgstr ""
 
+#: ../../anomaly/part04/model_manager.rst:7 5bfb6381613149ef927a0fe3a922a203
+msgid "icon_comparison"
+msgstr ""
+
+#: ../../anomaly/part04/model_manager.rst:64 1e20c627a9204e84893136c959ab63ec
+msgid "compare ML models"
+msgstr ""
+
 # 9c3d3ffe200a4f3bbddbb867693f3ae5
-#: ../../anomaly/part04/model_manager.rst:69
+#: ../../anomaly/part04/model_manager.rst:69 925d5da354cc48f5be8e1e64b189bcbc
 msgid ""
 "새롭게 학습시킨 모델을 룰에 적용하려면 우측의 |icon_ham| 메뉴에서 **Apply this training model** 을"
 " 클릭합니다. 적용된 모델에는 |icon_applied| 태그가 표시됩니다."
 msgstr ""
+
+#: ../../anomaly/part04/model_manager.rst:5 04a665019e87413f8f2d6dc798c6c510
+msgid "icon_ham"
+msgstr ""
+
+#: ../../anomaly/part04/model_manager.rst:6 cac249e9fc9b4546a604af361f1ed196
+msgid "icon_applied"
+msgstr ""
+
+#: ../../anomaly/part04/model_manager.rst:71 6842eaa677e6472c8755be57f7716ebb
+msgid "apply new model"
+msgstr ""
+

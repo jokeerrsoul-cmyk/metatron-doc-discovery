@@ -8,45 +8,59 @@ msgid ""
 msgstr ""
 "Project-Id-Version: metatron discovery docs 0.4.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-12 19:16+0900\n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Polish <LL@li.org>\n"
 "Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 # 73e4ac0f7db043eab8975e521b3fcdf1
-#: ../../discovery/part00/step3.rst:2
+#: ../../discovery/part00/step3.rst:2 3c15453828544f8985f24a3810ccd0e1
 msgid "Step3. 대시보드 구성하기"
 msgstr ""
 
 # 2bd792d967c14ccea4ff4d01804dcd81
-#: ../../discovery/part00/step3.rst:9
+#: ../../discovery/part00/step3.rst:9 c45944371e7f4b909b7d665f3933668d
 msgid ""
 "마지막 단계는 빈 대시보드에 차트 위젯, 텍스트 위젯, 필터 위젯을 생성하여 대시보드를 구성하는 작업입니다. 대시보드 편집은 아래와"
 " 같은 순서로 진행됩니다."
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:11 e75cb0045580406f8eea490f69213448
+msgid "차트 생성 단계"
+msgstr ""
+
 # bf21e10931794da3ae74b53f6bc2d2db
-#: ../../discovery/part00/step3.rst:15
+#: ../../discovery/part00/step3.rst:15 5e33eb4227c74934b65048b7ee266319
 msgid "이제 앞서 만든 ``판매현황 데이터``\\를 이용해 아래와 같이 핵심지표 차트와 선형 차트를 그려 대시보드를 만들어보겠습니다."
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:17 c9a134042bd94fc4892ad93f693bd189
+msgid "Sales dashboard"
+msgstr ""
+
 # 4cd32dbb4a0249b9b337d4c50360c55e
-#: ../../discovery/part00/step3.rst:21
+#: ../../discovery/part00/step3.rst:21 354d1838266746ffa96424c390ac6f8b
 msgid "빈 대시보드에서 **차트** 버튼을 눌러서 차트를 만들어봅시다."
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:23 f420ebec95054ffb9370f2b0913dd56c
+msgid "empty dashboard"
+msgstr ""
+
 # fb649d4bf9254d2a82d1376972e1f078
-#: ../../discovery/part00/step3.rst:28
+#: ../../discovery/part00/step3.rst:28 f883dc630bdc475c99ecc89c3960f3d6
 msgid "핵심지표 차트 만들기"
 msgstr ""
 
 # 48de1bb4fb9d4ca9b98388fd8b743183
-#: ../../discovery/part00/step3.rst:30
+#: ../../discovery/part00/step3.rst:30 c3de2648f01049b7906dbbb64e083cf1
 msgid ""
 "처음 만들어 볼 차트는 핵심지표(KPI) 차트입니다. 핵심지표 차트는 조직의 목표를 가장 직관적으로 보여주는 가장 단순하면서도 "
 "강력한 차트입니다. 우리가 만들 대시보드는 판매 현황을 잘 나타내는 것이 목표입니다. 따라서 총 판매액, 예상 총 판매액, 총 "
@@ -55,95 +69,157 @@ msgid ""
 "선반에 올라갑니다. 컬럼을 선반에 올리면 즉시 알맞는 차트 종류가 추천됩니다. 추천된 **핵심지표** 차트를 클릭해 볼까요?"
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:32 18fa3e126f2c433ba7c8140e4ed83ce7
+msgid "pivoiting"
+msgstr ""
+
 # 5ff0666ae632402e910ddf049a2a1a3a
-#: ../../discovery/part00/step3.rst:36
+#: ../../discovery/part00/step3.rst:36 4c0bf39122de460da0f0f5de99888112
 msgid "아래와 같이 핵심지표 차트가 만들어졌습니다. 조금 더 보기 좋게 만들기 위해서 우측의 차트 속성 메뉴를 이용해봅시다."
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:38 80b676a10d7d4b86bd2de6cc5f9526e6
+msgid "raw KPI chart"
+msgstr ""
+
 # 8b0d3b25df9f428a9c4698d646e2a037
-#: ../../discovery/part00/step3.rst:42
+#: ../../discovery/part00/step3.rst:42 b3a7bebdc78c4ef39851e049bb98cd4f
 msgid "|icon_common|\\을 눌러 **공통 설정** 패널에서 각 측정값 컬럼에 아이콘을 추가하고"
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:4 d1f1dc37cedf475ab536e14a5a740100
+msgid "icon_common"
+msgstr ""
+
+#: ../../discovery/part00/step3.rst:44 9ecf375a3d144eb884011e9f59a92089
+msgid "KPI icon"
+msgstr ""
+
 # 0fd81d763c0c4518a427b33dda360a5c
-#: ../../discovery/part00/step3.rst:48
+#: ../../discovery/part00/step3.rst:48 a2f7f70b505f474dac7358de3a89750c
 msgid "|icon_number|\\을 눌러 **숫자 포멧** 패널에서 소수점 표기 방식과 약어 표기 방식을 변경해주었습니다."
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:5 8b3892ed355f49cb8f6c650a7aad2064
+msgid "icon_number"
+msgstr ""
+
+#: ../../discovery/part00/step3.rst:50 e6623bf4edcd4f788893bf8aed19d345
+msgid "KPI chart number format"
+msgstr ""
+
 # aec8aa8e146c4dfb9167f6ec50caed23
-#: ../../discovery/part00/step3.rst:54
+#: ../../discovery/part00/step3.rst:54 5ce60f58d4cc4d0f908fb35a91a225e3
 msgid ""
 "핵심지표 차트에서 특히 중요한 건 이전 대비 얼마나 성과가 있는지를 파악하는 것 입니다. |icon_aux|\\을 눌러 **보조 "
 "지표 설정** 패널에서 보조 지표를 설정하고 전월 대비 몇 %나 잘하고 있는지 확인해보겠습니다. 원한다면 원 지표 대신 보조 지표를"
 " 강조할 수도 있습니다."
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:6 de8e93e1959840be86cf3db4543a589c
+msgid "icon_aux"
+msgstr ""
+
+#: ../../discovery/part00/step3.rst:56 41d3d15e2cc242c0a1ba464a3bb8f873
+msgid "KPI chart comparison"
+msgstr ""
+
 # d6f79ce856ca4da590175fe76cc77841
-#: ../../discovery/part00/step3.rst:60
+#: ../../discovery/part00/step3.rst:60 f9bce3527dc34df6b8e51efef0b9cffe
 msgid "**저장**\\을 누르면 차트가 대시보드에 나타납니다."
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:62 5a2d7cbc26354f8585a16a55a83ddf5c
+msgid "KPI chart on dashboard"
+msgstr ""
+
 # 9da3a4e5dc0349c793f0893103ad0994
-#: ../../discovery/part00/step3.rst:67
+#: ../../discovery/part00/step3.rst:67 fd8314134e864c6d8ed2e1e2e0c5c7b7
 msgid "선형 차트 만들기"
 msgstr ""
 
 # f7874d9b63a4490bb4439a33833be9d0
-#: ../../discovery/part00/step3.rst:69
+#: ../../discovery/part00/step3.rst:69 82833fe5a35d4e54bb11e672d2c7dc9f
 msgid ""
 "그 다음으로 가장 기본적인 차트인 선형 차트를 그려보겠습니다. 시간에 따라 매출과 수익이 어떻게 변하는지 한 눈에 볼 수 있도록 해"
 " 볼까요? 다시 **차트** 버튼을 눌러 새 차트 그리기로 들어갑니다. ``OrderDate``, ``Profit``, "
 "``Sales`` 컬럼을 눌러 시간 차원에 따라 값들이 변하는 모습을 보고자 합니다. 추천된 **선형 차트**\\를 클릭해보세요."
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:71 96c5cd26d5804d4581a4cacb0462e99d
+msgid "pivoting"
+msgstr ""
+
 # 407292618d1049e9871e86b484bea561
-#: ../../discovery/part00/step3.rst:75
+#: ../../discovery/part00/step3.rst:75 34219bb015754c78a6bbdfedd8e4f66a
 msgid "선형 차트가 그려졌습니다. 차트 속성창을 열어서 라인의 모양을 둥글게 변경해주었습니다."
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:77 33dac7483f4d4a01ab3193f76e2e5b64
+msgid "Line chart"
+msgstr ""
+
 # 4037dabc3f45476389b10ec4ebc18e77
-#: ../../discovery/part00/step3.rst:81
+#: ../../discovery/part00/step3.rst:81 a16003d653ff44799d236bdd1ed5c9de
 msgid ""
 "지금은 ``OrderDate``\\의 집계 단위가 시간이라 너무 데이터가 많습니다. 월 단위로 보기 위해서 선반에 올라간 "
 "``OrderDate`` 컬럼의 메뉴에서 **Granularity**\\를 **월(Month)**\\로 선택해줍니다. 이제 모든 "
 "데이터가 보이네요! 우측 상단의 **미니맵**\\을 클릭해서 차트에서 미니맵을 제거해줍니다."
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:83 87b876cce2a84f3a87c13f38baf11375
+msgid "Line chart granularity"
+msgstr ""
+
 # 30fb113ca21a4abe859db33b7d9d3c9d
-#: ../../discovery/part00/step3.rst:87
+#: ../../discovery/part00/step3.rst:87 192d9145033d4114a50a40f85c90f87a
 msgid "우측 메뉴에서 |icon_coloring|\\을 눌러 **색상 설정** 패널에서 색상 설정도 변경해줍니다."
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:7 8289a07f2be24d68be4dccdb18dfa23b
+msgid "icon_coloring"
+msgstr ""
+
+#: ../../discovery/part00/step3.rst:89 a78178b71c8a473187008f20eea794c7
+msgid "Line chart color"
+msgstr ""
+
 # 1a8941f4414e4f70b7d3216d91435a11
-#: ../../discovery/part00/step3.rst:93
+#: ../../discovery/part00/step3.rst:93 09eb52a55e064267a28e71fca83bb605
 msgid ""
 "저장을 누르고 차트를 drag & drop하여 적절하게 위치를 바꿔주세요. **텍스트 위젯**\\도 추가하여 대시보드에 적절한 "
 "정보를 추가합니다. **마침**\\을 누르면 대시보드 편집이 완료됩니다."
 msgstr ""
 
+#: ../../discovery/part00/step3.rst:95 ../../discovery/part00/step3.rst:101
+#: 03569d709f65475ab6b41bae58ec0430 b2128e6b44fa47ed885a41183f61e1fc
+msgid "Dash board edit window"
+msgstr ""
+
 # 7fbca9a369594a998d1a3e5e61db921b
-#: ../../discovery/part00/step3.rst:99
+#: ../../discovery/part00/step3.rst:99 77c4fdf4eb5c4293aacf5b467c8fe8b5
 msgid ""
 "본 튜토리얼을 통해 간단한 차트 두 가지를 완성해보았습니다. 대시보드는 인터랙티브하게 동작하여 차트를 선택하거나 필터를 추가하면 "
 "원하는 방식으로 프레젠테이션할 수 있습니다. 또 필요할 때마다 언제든지 차트를 수정하거나 추가·삭제할 수 있습니다."
 msgstr ""
 
 # f3bb0eff32444166b759f20c2919cbb2
-#: ../../discovery/part00/step3.rst:105
+#: ../../discovery/part00/step3.rst:105 e5f2d6f4bc534df2b0c01d4472d5d488
 msgid "이제 Metatron Discovery에 대해 더 알아보시겠어요?"
 msgstr ""
 
 # d1f3cf8e667a495ea811989597676778
-#: ../../discovery/part00/step3.rst:107
+#: ../../discovery/part00/step3.rst:107 2123940427cd4435b3066d410891ce74
 msgid ":doc:`../part01/overview`"
 msgstr ""
 
 # 07d7aa3641b04957a831d26a4e946cfa
-#: ../../discovery/part00/step3.rst:108
+#: ../../discovery/part00/step3.rst:108 a32b327d3b6a44cbafd504c38e83fa68
 msgid ":doc:`../part01/structure`"
 msgstr ""
 
 # b46980df5ff44764b57c380f80a29e93
-#: ../../discovery/part00/step3.rst:109
+#: ../../discovery/part00/step3.rst:109 a207df004c834b0986a1d517d3a10992
 msgid ":doc:`../part01/engine`"
 msgstr ""
+

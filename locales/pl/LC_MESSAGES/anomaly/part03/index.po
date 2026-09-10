@@ -7,23 +7,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: metatron discovery docs 0.4.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 16:43+0900\n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Polish <LL@li.org>\n"
 "Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 # 2b550fa611264217903807812d66257b
-#: ../../anomaly/part03/index.rst:2
+#: ../../anomaly/part03/index.rst:2 4e480d8503b94bf1bb828b5677cd67f2
 msgid "알람 내역 열람하기"
 msgstr ""
 
 # 07ee3f27bf52414f9e08c02d6b52d59b
-#: ../../anomaly/part03/index.rst:4
+#: ../../anomaly/part03/index.rst:4 c9e5c473657f4ae6958692d88d09145f
 msgid ""
 "**Alarm** 탭 메뉴에서는 지금까지 발생한 알람 내역을 확인할 수 있습니다. 알람의 전체적인 현황을 보여주는 "
 ":ref:`Statistics` 페이지와는 다르게 이 메뉴에서는 보다 개별적인 알람들을 열람하고 탐색하는 데 최적화된 UI를 "
@@ -31,27 +33,27 @@ msgid ""
 msgstr ""
 
 # b1ae69f69fd945e98c16d47e934556dd
-#: ../../anomaly/part03/index.rst:6
+#: ../../anomaly/part03/index.rst:6 83131c13994944ac8c44cc854336e644
 msgid "이 메뉴는 다음의 두 가지 페이지로 구성되어 있습니다."
 msgstr ""
 
 # f97567b48f1d46ceae8a9bbf444d2782
-#: ../../anomaly/part03/index.rst:8
+#: ../../anomaly/part03/index.rst:8 073aeed3aaea4a4bbf74d76a655033cf
 msgid ":ref:`alarm_list`"
 msgstr ""
 
 # 7008f5724109489ab0abd6f2844ef9cb
-#: ../../anomaly/part03/index.rst:9
+#: ../../anomaly/part03/index.rst:9 7e6f589899064e09ad5ca17892e7f259
 msgid ":ref:`alarm_details`"
 msgstr ""
 
 # 52ead3ae1ee1450e9bcb63741c063d86
-#: ../../anomaly/part03/index.rst:14
+#: ../../anomaly/part03/index.rst:14 478cb4b8b7c545ba8d13ef68ce8a4bba
 msgid "알람 리스트"
 msgstr ""
 
 # 96bb114e37f94539af808e15c5f5d788
-#: ../../anomaly/part03/index.rst:16
+#: ../../anomaly/part03/index.rst:16 98f808f53b0b4d66aecad6f026f9e21a
 msgid ""
 "**Alarm** 탭으로 들어가면 현재까지 발생한 알람들을 열거하여 보여줍니다. 화면 상단에 있는 **Alarm rule** / "
 "**Timeline** 선택 박스를 이용하여, 알람 리스트를 알람 룰 기준으로 정렬할 수도 있고, 발생한 시간 기준으로 정렬할 수도"
@@ -59,39 +61,47 @@ msgid ""
 msgstr ""
 
 # ac4c936021cc47c082f4fd1d16d29759
-#: ../../anomaly/part03/index.rst:18
+#: ../../anomaly/part03/index.rst:18 e0ae5709fde14f5f8d521a5a239de361
 msgid "**Alarm rule** (알람 룰 기준으로 정렬)"
 msgstr ""
 
+#: ../../anomaly/part03/index.rst:20 82c9274badc2406586830829458ec542
+msgid "alarm list"
+msgstr ""
+
 # bbeafabe8a49464384b534bcc2d6c4eb
-#: ../../anomaly/part03/index.rst:24
+#: ../../anomaly/part03/index.rst:24 cfd5018c476042c8a0bb128a9fa57598
 msgid "**Timeline** (발생 시간 기준으로 정렬)"
 msgstr ""
 
+#: ../../anomaly/part03/index.rst:26 9534aa595cef402997843455d1a2007d
+msgid "timeline type display"
+msgstr ""
+
 # 645b596b63b6465485ce64f11f1114db
-#: ../../anomaly/part03/index.rst:30
+#: ../../anomaly/part03/index.rst:30 70ae9ac050b14f6a924efe5932f464eb
 msgid "카테고리 맨 끝에 있는 **+ Load more**\\를 클릭하면 해당 카테고리 내 더 많은 알람 항목을 보여줍니다."
 msgstr ""
 
 # 076dce1d7fe04342a80be6baeadee8ef
-#: ../../anomaly/part03/index.rst:39
+#: ../../anomaly/part03/index.rst:35 cee2924f0b214fcd889af6beb37241ec
 msgid "알람 상세"
 msgstr ""
 
 # fab22b3db3d5403db7c11ac52f5662b7
-#: ../../anomaly/part03/index.rst:41
+#: ../../anomaly/part03/index.rst:37 a9359a842302472bb14eefd6a989aac3
 msgid ""
 "알람 리스트에 열거된 항목 중 하나를 선택하면 해당 알람에 대한 상세 정보를 열람할 수 있습니다. 아래는 알람 상세 페이지의 각 "
 "영역별 설명입니다."
 msgstr ""
 
 # 3fec2f52271d4b8ebc5dec5ee148f36d
-#: ../../anomaly/part03/index.rst:44
+#: ../../anomaly/part03/index.rst:40 88a1ddf76a944d0daf5856d91076e05b
 msgid "Summary"
 msgstr ""
 
 # 3ab5ecb6bf604c39bb75dcf6ed3c2b45
-#: ../../anomaly/part03/index.rst:46
+#: ../../anomaly/part03/index.rst:42 2c91cc9c07564eed876509f3d323612b
 msgid ""
 "이 영역에서는 해당 알람의 발생 현황을 보여줍니다. 정해진 주기에 따라 알람이 연속적으로 발생하면 1개의 알람 항목으로 계속 "
 "유지되며, 알람의 심각도(severity) 기준을 넘은 데이터 포인트 수가 함께 표기됩니다. 또한 알람을 확인한 후 처리 결과를 "
@@ -100,129 +110,146 @@ msgid ""
 msgstr ""
 
 # f364a2fc74e94b0db3864cf9004f718b
-#: ../../anomaly/part03/index.rst:48
+#: ../../anomaly/part03/index.rst:44 6f90739431b84788a3113d81a841a2e0
 msgid ""
 "아래 그림 예시에서는 알람이 2번 연속적으로 발생하였고(**Alarms**), 알람 확인 주기가 1분이기 때문에 2건의 알람이 총 "
 "120초 동안 지속된 것을 보여주고 있습니다.(**Elapsed Time**)."
 msgstr ""
 
+#: ../../anomaly/part03/index.rst:46 55aac08127b94d85ab73c55bb91f2153
+msgid "alarm overview"
+msgstr ""
+
 # c49412c5f7374e02a17bfe0806530e41
-#: ../../anomaly/part03/index.rst:56
+#: ../../anomaly/part03/index.rst:52 dd5a72ff696143d9ab6b9c34e6ace057
 msgid "Alarm History 영역"
 msgstr ""
 
 # 8fc48e5656c34c1fbb0b7650ee66e12c
-#: ../../anomaly/part03/index.rst:58
+#: ../../anomaly/part03/index.rst:54 0cd64bea2d6441d59f195668e3ac319e
 msgid ""
 "이 영역에서는 해당 알람에 적용된 알람 룰에 의해 발생한 알람의 이력을 보여줍니다. 우측 링크 아이콘을 누르면 해당 알람으로 "
 "이동합니다."
 msgstr ""
 
+#: ../../anomaly/part03/index.rst:56 480daddf2acd4a8b8cc833f807ed7f28
+msgid "alarm history"
+msgstr ""
+
 # 6402fe39fc2f499eb98692c2e7be06af
-#: ../../anomaly/part03/index.rst:67
+#: ../../anomaly/part03/index.rst:63 8e8c65486c194c57801b6ed9dff0850a
 msgid "Alarm Confirmation 탭"
 msgstr ""
 
 # 58cac225ab924e8380bf135db5c1a2ba
-#: ../../anomaly/part03/index.rst:69
+#: ../../anomaly/part03/index.rst:65 103248a1411f457395c8c857d75871fd
 msgid ""
 "우측 탭 첫번째 메뉴에서는 알람 확인 후 해당 알람 구독자 리스트를 확인하고(**Subscriber**) 알람을 확인하여 상태를 "
 "기록하고(**Alarm Confirm**) 작업자가 기록을 남길 수 있는 커뮤니케이션 기능을 제공합니다."
 msgstr ""
 
 # bfbb15aa584647f2b4d41aa552f5f858
-#: ../../anomaly/part03/index.rst:71
+#: ../../anomaly/part03/index.rst:67 35c85d7b3e3a4cabbf4ac33a5b6e6d30
 msgid "알람 확인 항목은 4가지로 구분됩니다."
 msgstr ""
 
 # 039048a561bb4b95871069ccfd0d3620
-#: ../../anomaly/part03/index.rst:73
+#: ../../anomaly/part03/index.rst:69 f91185e424d246f2883408b74506d62b
 msgid "**미처리**\\: 알람 최초 발생 시 기본값. 해당 알람에 대해 어떠한 조치도 취하지 않은 상태"
 msgstr ""
 
 # 477dc965f337444491cda9866cea41db
-#: ../../anomaly/part03/index.rst:74
+#: ../../anomaly/part03/index.rst:70 d546afedad7142d8bd53f39c89da7358
 msgid "**알림 중지**\\: 해당 알람을 사용자가 확인하여 더이상 알림(notification)을 받지 않는 상태"
 msgstr ""
 
 # fa014bdea97749c498e5c5d94ad35e5a
-#: ../../anomaly/part03/index.rst:75
+#: ../../anomaly/part03/index.rst:71 a5af21d9d066437d84042515d273a015
 msgid "**처리 완료**\\: 해당 알람을 확인하고 조치를 취한 상태로, 해당 알람에 관련된 tag 기록 가능"
 msgstr ""
 
 # 3f2348489e67459dbf59629d59d069e8
-#: ../../anomaly/part03/index.rst:76
+#: ../../anomaly/part03/index.rst:72 9f446e07a7944e469dca76f393443932
 msgid "**오탐**\\: 이상 상태가 아닌데 발생한 알람"
 msgstr ""
 
+#: ../../anomaly/part03/index.rst:74 ../../anomaly/part03/index.rst:81
+#: 041a87bbaa184ef396b72d50aa2b3308 f2a9e92c29704b7f95c8caf9d0582977
+msgid "alarm confirmation"
+msgstr ""
+
 # 583845d1e7d443d788687858354b66ce
-#: ../../anomaly/part03/index.rst:83
+#: ../../anomaly/part03/index.rst:79 63b4ea3d2fd14fdfb9ebd6e2028d85fb
 msgid ""
 "구독자(Subscriber)는 해당 알람에 관계된 유저를 아이디로 검색하여 추가할 수 있으며, E-mail에 체크하면 해당 유저 "
 "정보에 기록된 이메일로 알람을 발송합니다."
 msgstr ""
 
 # 27f7d11e6481480885ea1e8c86affe20
-#: ../../anomaly/part03/index.rst:93
+#: ../../anomaly/part03/index.rst:89 7a1c5c5cd59d4ffdad13de2bd82fce12
 msgid "Alarm Rule 탭"
 msgstr ""
 
 # fca91ed49da14856ac24235956ddab64
-#: ../../anomaly/part03/index.rst:95
+#: ../../anomaly/part03/index.rst:91 96f5e3c9b0574b18b61c55099d0f319f
 msgid "이 영역에서는 해당 알람의 심각도와 알람 발생 시각, 그리고 이 알람을 발생시킨 룰과 데이터 소스에 관련된 정보를 보여줍니다."
 msgstr ""
 
 # 9d41b099a9324c0c83cd1180a03bb66b
-#: ../../anomaly/part03/index.rst:97
+#: ../../anomaly/part03/index.rst:93 7cfa4923545d48e4bb1f7922f552fc39
 msgid "**Severity**\\: 현재 발생한 알람의 심각도"
 msgstr ""
 
 # 40e22e7b1938441b88e0f894f0722c59
-#: ../../anomaly/part03/index.rst:98
+#: ../../anomaly/part03/index.rst:94 2cf8673ee23a469c986822fd5d3ccd75
 msgid "**Occurrence Time**\\: 알람 발생 시각"
 msgstr ""
 
 # c1b40f0d98164eb4b6f221142dfd0043
-#: ../../anomaly/part03/index.rst:99
+#: ../../anomaly/part03/index.rst:95 0f475ec769ec4231a6d941f512482703
 msgid ""
 "**Alarm Rule**\\: 알람을 발생시킨 임계치와 임계치 초과 건수/알람 발생 검사 주기. 우측 링크 버튼 클릭 시 해당 "
 "알람 룰로 이동"
 msgstr ""
 
 # 7ba2782b35164791aad679f2e42d75f2
-#: ../../anomaly/part03/index.rst:100
+#: ../../anomaly/part03/index.rst:96 cdf53545b7ce4e88976554fdc51e375d
 msgid ""
 "**Alarm Interval**\\: 알람 발생 검사 주기. 1분일 경우 1분마다 Abnormal score가 임계치를 넘었는지 "
 "검사"
 msgstr ""
 
 # 31a341a266bc4584ba050ca9d4386421
-#: ../../anomaly/part03/index.rst:101
+#: ../../anomaly/part03/index.rst:97 8f48b093b3b3440b85ce291f32ca7ea3
 msgid "**Data Source**\\: 데이터 소스 정보"
 msgstr ""
 
 # d9de77228f8344ea9360d94e83467d25
-#: ../../anomaly/part03/index.rst:102
+#: ../../anomaly/part03/index.rst:98 c0ebdc1bf1cd4ee6b89f9a6f501981e3
 msgid "**Granularity**\\: 데이터 소스가 적재되는 시간 단위"
 msgstr ""
 
 # 633ef9125b5b41068fddeccc34c79e5f
-#: ../../anomaly/part03/index.rst:103
+#: ../../anomaly/part03/index.rst:99 7ed8c683c8334e6f92892a2157ecfd19
 msgid "**Training Interval**\\: 모델 학습을 위해 사용한 데이터 기간"
 msgstr ""
 
 # 6c46193c700d44619d445c513e86fa83
-#: ../../anomaly/part03/index.rst:104
+#: ../../anomaly/part03/index.rst:100 00b7796c7a714fcebc8bdaf556c9ec44
 msgid "**Scoring Method**\\: 여러 개의 측정값(Measure)을 사용할 경우 Abnormal Score를 계산하는 방식"
 msgstr ""
 
+#: ../../anomaly/part03/index.rst:102 456eaaf1ab7c44b098ba9fc962bab741
+msgid "alarm info"
+msgstr ""
+
 # 36073838cac2439a85a6d9dd9525a3c2
-#: ../../anomaly/part03/index.rst:113
+#: ../../anomaly/part03/index.rst:109 ece99a2304b14931827d287e76ce73ac
 msgid "View by Chart 탭"
 msgstr ""
 
 # 0e098bb4a8f64429a23499cf6f82dcd7
-#: ../../anomaly/part03/index.rst:115
+#: ../../anomaly/part03/index.rst:111 233963fb02cf4f4c80cc5d7c87eeef41
 msgid ""
 "이 탭 영역에서는 해당 알람 구간에서 모니터링한 데이터의 Abnormal Score 를 그래프로 보여줍니다. 각 조건별 점수 "
 "임계치(Threshold)에 상응하는 알람(``Critical``, ``Major``, ``Moderate``, ``Low``) "
@@ -230,22 +257,31 @@ msgid ""
 "참조하십시오."
 msgstr ""
 
+#: ../../anomaly/part03/index.rst:113 b2e0dbed96f8472f8dc59dff12872782
+msgid "chart view"
+msgstr ""
+
 # 14106332f28a43d4ac7d35f948fd4518
-#: ../../anomaly/part03/index.rst:121
+#: ../../anomaly/part03/index.rst:117 3d489cc3c6244f4d9792f6814e3ac5d5
 msgid "**Total abnormal score:** 알람 룰에 포함된 모든 측정값 컬럼에 대한 Abnormal Score를 보여줍니다."
 msgstr ""
 
 # f18d874d055540a4a190c2e15e6e8c10
-#: ../../anomaly/part03/index.rst:122
+#: ../../anomaly/part03/index.rst:118 8ac7d777435649869e936ef2cc1eedb4
 msgid "**Chart by measures:** 알람 룰에 포함된 각 개별 측정값 컬럼 데이터의 예측치와 실제치의 추이를 보여줍니다."
 msgstr ""
 
 # 95f25254fb5047509630c97f002483d5
-#: ../../anomaly/part03/index.rst:125
+#: ../../anomaly/part03/index.rst:121 abd3158dc3f84ca6985388f2b9626a41
 msgid "View by Table 탭"
 msgstr ""
 
 # a8a5f634b96749f88d02c3624bf46157
-#: ../../anomaly/part03/index.rst:127
+#: ../../anomaly/part03/index.rst:123 222eace5a2374c2b819c6cb6f7f5a409
 msgid "이 탭 영역에서는 각 알람 발생 건별로 데이터 실제치와 예측치, 그리고 Abnormal Score를 표 형식으로 나열합니다."
 msgstr ""
+
+#: ../../anomaly/part03/index.rst:125 4a0655d5e5b146ed9f5d54ca490c9fcd
+msgid "table view"
+msgstr ""
+
