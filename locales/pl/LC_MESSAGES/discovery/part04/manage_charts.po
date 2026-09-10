@@ -1,10 +1,9 @@
-﻿# SOME DESCRIPTIVE TITLE.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2019, metatron team
 # This file is distributed under the same license as the metatron discovery
 # docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: metatron discovery docs 0.4.3\n"

@@ -3,7 +3,6 @@
 # docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: metatron discovery docs 0.4.3\n"
@@ -92,7 +91,6 @@ msgstr ""
 
 # 3ab5ecb6bf604c39bb75dcf6ed3c2b45
 #: ../../anomaly/part03/index.rst:46
-#, fuzzy
 msgid ""
 "이 영역에서는 해당 알람의 발생 현황을 보여줍니다. 정해진 주기에 따라 알람이 연속적으로 발생하면 1개의 알람 항목으로 계속 "
 "유지되며, 알람의 심각도(severity) 기준을 넘은 데이터 포인트 수가 함께 표기됩니다. 또한 알람을 확인한 후 처리 결과를 "
@@ -114,7 +112,6 @@ msgstr ""
 
 # 8fc48e5656c34c1fbb0b7650ee66e12c
 #: ../../anomaly/part03/index.rst:58
-#, fuzzy
 msgid ""
 "이 영역에서는 해당 알람에 적용된 알람 룰에 의해 발생한 알람의 이력을 보여줍니다. 우측 링크 아이콘을 누르면 해당 알람으로 "
 "이동합니다."
@@ -127,7 +124,6 @@ msgstr ""
 
 # 58cac225ab924e8380bf135db5c1a2ba
 #: ../../anomaly/part03/index.rst:69
-#, fuzzy
 msgid ""
 "우측 탭 첫번째 메뉴에서는 알람 확인 후 해당 알람 구독자 리스트를 확인하고(**Subscriber**) 알람을 확인하여 상태를 "
 "기록하고(**Alarm Confirm**) 작업자가 기록을 남길 수 있는 커뮤니케이션 기능을 제공합니다."
@@ -140,31 +136,26 @@ msgstr ""
 
 # 039048a561bb4b95871069ccfd0d3620
 #: ../../anomaly/part03/index.rst:73
-#, fuzzy
 msgid "**미처리**\\: 알람 최초 발생 시 기본값. 해당 알람에 대해 어떠한 조치도 취하지 않은 상태"
 msgstr ""
 
 # 477dc965f337444491cda9866cea41db
 #: ../../anomaly/part03/index.rst:74
-#, fuzzy
 msgid "**알림 중지**\\: 해당 알람을 사용자가 확인하여 더이상 알림(notification)을 받지 않는 상태"
 msgstr ""
 
 # fa014bdea97749c498e5c5d94ad35e5a
 #: ../../anomaly/part03/index.rst:75
-#, fuzzy
 msgid "**처리 완료**\\: 해당 알람을 확인하고 조치를 취한 상태로, 해당 알람에 관련된 tag 기록 가능"
 msgstr ""
 
 # 3f2348489e67459dbf59629d59d069e8
 #: ../../anomaly/part03/index.rst:76
-#, fuzzy
 msgid "**오탐**\\: 이상 상태가 아닌데 발생한 알람"
 msgstr ""
 
 # 583845d1e7d443d788687858354b66ce
 #: ../../anomaly/part03/index.rst:83
-#, fuzzy
 msgid ""
 "구독자(Subscriber)는 해당 알람에 관계된 유저를 아이디로 검색하여 추가할 수 있으며, E-mail에 체크하면 해당 유저 "
 "정보에 기록된 이메일로 알람을 발송합니다."
@@ -177,7 +168,6 @@ msgstr ""
 
 # fca91ed49da14856ac24235956ddab64
 #: ../../anomaly/part03/index.rst:95
-#, fuzzy
 msgid "이 영역에서는 해당 알람의 심각도와 알람 발생 시각, 그리고 이 알람을 발생시킨 룰과 데이터 소스에 관련된 정보를 보여줍니다."
 msgstr ""
 
@@ -232,7 +222,6 @@ msgstr ""
 
 # 0e098bb4a8f64429a23499cf6f82dcd7
 #: ../../anomaly/part03/index.rst:115
-#, fuzzy
 msgid ""
 "이 탭 영역에서는 해당 알람 구간에서 모니터링한 데이터의 Abnormal Score 를 그래프로 보여줍니다. 각 조건별 점수 "
 "임계치(Threshold)에 상응하는 알람(``Critical``, ``Major``, ``Moderate``, ``Low``) "
@@ -242,7 +231,6 @@ msgstr ""
 
 # 14106332f28a43d4ac7d35f948fd4518
 #: ../../anomaly/part03/index.rst:121
-#, fuzzy
 msgid "**Total abnormal score:** 알람 룰에 포함된 모든 측정값 컬럼에 대한 Abnormal Score를 보여줍니다."
 msgstr ""
 
@@ -258,6 +246,5 @@ msgstr ""
 
 # a8a5f634b96749f88d02c3624bf46157
 #: ../../anomaly/part03/index.rst:127
-#, fuzzy
 msgid "이 탭 영역에서는 각 알람 발생 건별로 데이터 실제치와 예측치, 그리고 Abnormal Score를 표 형식으로 나열합니다."
 msgstr ""

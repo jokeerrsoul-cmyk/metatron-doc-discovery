@@ -3,7 +3,6 @@
 # docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: metatron discovery docs 0.4.3\n"
@@ -59,7 +58,6 @@ msgstr ""
 
 # 89adab61f1644949be7b055e5c1570c4
 #: ../../anomaly/part05/index.rst:15
-#, fuzzy
 msgid ":ref:`algorithm_list`"
 msgstr ""
 
@@ -70,7 +68,6 @@ msgstr ""
 
 # 9f8fed78a8134d078a36bf7f3ffcb737
 #: ../../anomaly/part05/index.rst:17
-#, fuzzy
 msgid ":ref:`algorithm_details`"
 msgstr ""
 

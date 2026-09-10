@@ -4,7 +4,6 @@
 # docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: metatron discovery docs 0.4.3\n"

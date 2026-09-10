@@ -2,7 +2,6 @@
 # docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: metatron discovery docs 0.4.3\n"
@@ -224,7 +223,6 @@ msgstr ""
 
 # 58a664c944db41919a85990234a8cc04
 #: ../../discovery/part02/create_a_data_source.rst:73
-#, fuzzy
 msgid ""
 "**컬럼 추가:** 데이터에 위도, 경도 컬럼이 있는 경우 이를 결합하여 ``Point`` 타입의 신규 컬럼을 추가할 수 있습니다."
 " 이 컬럼을 지우면 다른 컬럼들과 동일하게 동작합니다."

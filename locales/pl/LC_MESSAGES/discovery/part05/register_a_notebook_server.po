@@ -2,7 +2,6 @@
 # docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: metatron discovery docs 0.4.3\n"
@@ -30,13 +29,11 @@ msgstr ""
 
 # 6fe40a01dc434e6290a678f1cec2e3f4
 #: ../../discovery/part05/register_a_notebook_server.rst:8
-#, fuzzy
 msgid "워크스페이스의 우측 상단에 있는 |icon_more| 버튼을 클릭한 후 :guilabel:`노트북 서버 설정`\\을 선택합니다."
 msgstr ""
 
 # 4d9ca083823a473b8c951de16a58944c
 #: ../../discovery/part05/register_a_notebook_server.rst:14
-#, fuzzy
 msgid ""
 "관리자가 사전에 등록해 둔 Jupyter, Zeppelin 서버 목록 중에서 본인 워크스페이스에서 연결해서 사용하고자 하는 노트북 "
 "서버를 선택 후 :guilabel:`마침`\\ 버튼을 클릭합니다."
