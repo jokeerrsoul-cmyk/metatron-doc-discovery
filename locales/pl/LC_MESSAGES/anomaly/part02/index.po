@@ -1,0 +1,76 @@
+# Copyright (C) 2019, metatron team
+# This file is distributed under the same license as the metatron discovery
+# docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: metatron discovery docs 0.4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+# 0e981087fa7546daacde78f1841698af
+#: ../../anomaly/part02/index.rst:4 0cdbd94b245d431a8ac0b5ea5aaed36d
+msgid "통계"
+msgstr ""
+
+# 6a95f34bef2440209441ef2b9966595c
+#: ../../anomaly/part02/index.rst:6 53d1fc44b333430da0b6aa940201c603
+msgid ""
+"**Statistics** 탭 메뉴에서는 발생한 알람의 전반적인 통계를 보여줍니다. 이 페이지에서는 사용자가 지금까지 발생한 알람의"
+" 현황을 다각도로 파악할 수 있도록 중요도, 알람 발생 시기, 알람 룰 등의 다양한 기준으로 통계를 산출하여 제시합니다."
+msgstr ""
+
+# 1281147c2aca4edbaf3e1cb6a079ac91
+#: ../../anomaly/part02/index.rst:8 b5b53c1fde9a4001a1ae1f4276149e55
+msgid "페이지 기본 구성은 다음과 같습니다."
+msgstr ""
+
+#: ../../anomaly/part02/index.rst:10 396e7833c5e64c0a91705964653668f5
+msgid "statistics my alarms"
+msgstr ""
+
+# 6e9e1b5713334bf7a7c0369df9e86d14
+#: ../../anomaly/part02/index.rst:14 d50cd555b2ae43dba62c75c8098e6b4e
+msgid "**Alarm Distribution by Severity:** 심각도별 알람 발생 비중을 보여줍니다."
+msgstr ""
+
+# cdc4f664c8b942218f4c3a42f72bbb9b
+#: ../../anomaly/part02/index.rst:15 b177d9352fbe47e786c1e23d79a92f0c
+msgid "**Alarm Count per Time:** 시간대별 알람 빈도를 보여줍니다."
+msgstr ""
+
+# 93559e6adab04b2a9028400c3267cc2a
+#: ../../anomaly/part02/index.rst:16 3bf1dcbf5a1d4b7393893e031662e5a2
+msgid "**Top 5 Subscribers:** 가장 많은 알람을 통보받은 사용자 5명을 보여줍니다."
+msgstr ""
+
+# b9a05b09b1b0405c9902bcab56890117
+#: ../../anomaly/part02/index.rst:17 1694501482c7453aa3fdfdc8a7894485
+msgid "**Top 5 Alarm rules:** 가장 많은 알람을 일으킨 알람 룰 5개를 보여줍니다."
+msgstr ""
+
+# 9eae986df1bc4dcf820352244786ad01
+#: ../../anomaly/part02/index.rst:18 50614f3e1a6c44bf855b574885de3c94
+msgid "**Latest Alarms:** 가장 최근에 발생한 알람들을 보여줍니다."
+msgstr ""
+
+# 5b7655e7295743b8b0e1bbb5df9911b4
+#: ../../anomaly/part02/index.rst:20 fd37b00920684e49be224aad87ec9711
+msgid "페이지 상단의 기간 설정 메뉴를 이용하면 통계를 산출하는 기준 기간을 변경할 수 있습니다."
+msgstr ""
+
+#: ../../anomaly/part02/index.rst:22 4deb851f5202483a9dce4674f10e5b8b
+msgid "statistics other interval"
+msgstr ""
+

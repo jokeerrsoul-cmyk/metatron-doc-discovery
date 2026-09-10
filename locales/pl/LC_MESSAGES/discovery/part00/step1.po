@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, metatron team
+# This file is distributed under the same license as the metatron discovery
+# docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: metatron discovery docs 0.4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+# 37cbfb163be745249478a491f4af1e05
+#: ../../discovery/part00/step1.rst:2 fa14fc1507914fde874755011e2ff9dd
+msgid "Step1. 데이터 소스 만들기"
+msgstr ""
+
+# c55062724e034a34a9c9a4208a5fce9b
+#: ../../discovery/part00/step1.rst:4 8b85561ea1a34f478a917a3ba253e933
+msgid ""
+"데이터 분석을 하기 위해 가장 먼저 해야할 일은 데이터를 시스템에 적재하는 것 입니다. Metatron Discovery는 다양한 "
+"원천 데이터를 쉽게 적재할 수 있도록 지원합니다."
+msgstr ""
+
+# be15a267802848b6936378f8297b4a70
+#: ../../discovery/part00/step1.rst:6 ff53441dd91a41e6beb777e793c9bdb0
+msgid ""
+"본 튜토리얼 예제에서는 로컬 파일에 있는 데이터를 적재하는 방법을 소개합니다. 먼저 데이터를 준비하세요. 흔히 쓰이는 엑셀 "
+"파일(.xls, .xlsx)또는 .csv 형식의 파일이면 충분합니다. 여기서는 판매 현황 데이터를 활용합니다. 아래 링크에서 "
+"다운로드 받으세요."
+msgstr ""
+
+# 0d98be3bbfa04b65b4d863f6d778bc27
+#: ../../discovery/part00/step1.rst:8 53c029c3b4ac4aba98378fee70f67e07
+msgid ":download:`sample data (.csv) </_static/data/sales-data-sample.csv>`"
+msgstr ""
+
+# 89bec550f35b43adbba1ef5d9b894a13
+#: ../../discovery/part00/step1.rst:11 3798459117d441e8a56a4672c26d5c04
+msgid ""
+"데이터 소스는 **Management** > **데이터 스토리지** > **데이터 소스**\\에서 조회하고 적재할 수 있습니다. "
+"새로운 데이터 소스를 만들기 위해서 데이터 소스 리스트 우측 상단의 **new** 버튼을 클릭합니다."
+msgstr ""
+
+#: ../../discovery/part00/step1.rst:13 b4531c4ddfa741d1809436db0cb50f40
+msgid "create a new data source"
+msgstr ""
+
+# 5ba8ea09868b4c468d362707b8900142
+#: ../../discovery/part00/step1.rst:17 0221fc0fe77942cea3b55d5d5ba2e71d
+msgid ""
+"일단 튜토리얼에서는 **파일**\\을 눌러 로컬 폴더에서 데이터를 가져옵니다. 다른 원천에서 데이터 소스를 만드는 방법은 "
+":doc:`../part02/create_a_data_source` 문서를 참조하세요."
+msgstr ""
+
+# 28e3df5e07b84e8ca3d5cfb8cd59930b
+#: ../../discovery/part00/step1.rst:19 b409ec20b605438b9f37abd17cf9f9ab
+msgid "분석하고 싶은 데이터를 drag & drop하거나 디렉토리로부터 불러올 수 있습니다."
+msgstr ""
+
+#: ../../discovery/part00/step1.rst:21 171d3b6350e043a095e71872400398c7
+msgid "create a data source from local"
+msgstr ""
+
+# a8cf2c9af9ef4003ab0df6e1bf168de2
+#: ../../discovery/part00/step1.rst:25 42d4241951c7418388153c7f98e44b2b
+msgid ""
+"판매 현황 데이터를 드래그하면 컬럼과 라인 구분자에 따라 나타나는 데이터 샘플을 최대 100행까지 조회할 수 있습니다. 이 데이터는"
+" 기본적으로 설정된 구분자로 충분히 데이터를 잘 나타내는 것 같네요! **다음**\\을 누릅니다."
+msgstr ""
+
+#: ../../discovery/part00/step1.rst:27 718f3c64f0f4425197482d0203a2d2da
+msgid "data preview"
+msgstr ""
+
+# 91c9aec91c3a46da970356e98a6813ce
+#: ../../discovery/part00/step1.rst:31 95fa436d322745af8169491871c1f57e
+msgid "이제 실제로 데이터를 보면서 컬럼의 타입을 알맞게 조정해야 합니다. 이 작업을 **데이터 스키마 구성**\\이라고 부릅니다."
+msgstr ""
+
+#: ../../discovery/part00/step1.rst:33 20d3628bc4e5414585db113f3f056cc0
+msgid "data schema configuration"
+msgstr ""
+
+# 0ab90cd6be5c4d82946f121e9dcab592
+#: ../../discovery/part00/step1.rst:37 5195aec36d1e4f03b13d15a12b66d73a
+msgid ""
+"각 컬럼은 '차원값'(dimension) 또는 '측정값'(measure)이라는 역할로 나뉩니다. 자세한 내용은 "
+":doc:`../part02/dimension_and_measures` 문서를 참조하세요. 이 데이터에서는 ``Discount``,"
+" ``Profit``, ``Quantity``, ``Sales``, ``DaystoShipActual``, "
+"``SalesForecast``, ``DaystoShipScheduled``, ``SalesperCustomer``, "
+"``ProfitRatio`` 컬럼들을 측정값으로 변경해야 합니다."
+msgstr ""
+
+# 70dbdca910d7418d8d20400953af14c6
+#: ../../discovery/part00/step1.rst:39 74b596ca0d3f46a8b6011276a6bfdc92
+msgid ""
+"그 다음은 컬럼의 데이터 타입을 적절하게 변경해 주어야 합니다. 기본적으로 차원값은 문자로, 측정값은 정수로 설정되어 있습니다. "
+"데이터 샘플을 보면서 가장 알맞는 형식으로 변경해주세요. 아래에 이 데이터에서 변경할 사항들을 나열했습니다."
+msgstr ""
+
+# 058c204984e141998027ed9a96e385c3
+#: ../../discovery/part00/step1.rst:41 383b298170214fc1a6136ca8b9124034
+msgid "``Orderdate`` : 날짜/시간"
+msgstr ""
+
+# 5ae63afd2fe24cee9ea775c2d2922f8f
+#: ../../discovery/part00/step1.rst:42 8aad8159f4d247bb9749cdacdf9016df
+msgid "``Discount`` : 소수"
+msgstr ""
+
+# 8416da0ddb0e4827809994b0a65735ea
+#: ../../discovery/part00/step1.rst:43 254081076ede4c44b3981c2800b8dde6
+msgid "``ShipDate`` : 날짜/시간 (시간 표현을 yyyy. MM. dd. 로 변경한 후 체크박스 클릭하여 유효성 확인)"
+msgstr ""
+
+# 7823a2c5712c4f329859c2d5cb605a26
+#: ../../discovery/part00/step1.rst:44 fb083522ede3449b8fc96073e20c19ac
+msgid "``SalesperCustomer`` : 소수"
+msgstr ""
+
+# d3436bfb65314308a84bbe776c3a92bd
+#: ../../discovery/part00/step1.rst:45 311dea0311034767b33c9954b822c5ce
+msgid "``ProfitRatio`` : 소수"
+msgstr ""
+
+# 9c8c073d07a34afdbf2607e8594ea0eb
+#: ../../discovery/part00/step1.rst:46 3f662bdd568b4d40b256586803101cb0
+msgid "``latitude`` : 위도"
+msgstr ""
+
+# 199511a73724485a86ecb72c4fbb28a7
+#: ../../discovery/part00/step1.rst:47 2c7f89788e904cf5854f3a998d6f398f
+msgid "``longitude`` : 경도"
+msgstr ""
+
+# 8ec420126ebb43d48f7b3816a0225090
+#: ../../discovery/part00/step1.rst:49 c341b5e0d6d74e7da0be224067ee62bb
+msgid ""
+"마지막으로 새로운 컬럼을 만들어 줄 차례입니다. 우리는 위도와 경도 컬럼을 갖고 있으므로 Point 타입의 컬럼을 새로 만들 수 "
+"있습니다. 우측 상단의 **컬럼 추가** 버튼을 누르세요. **위도** 컬럼에 ``latitude`` 컬럼을 선택하고, **경도**"
+" 컬럼에 ``longitude`` 컬럼을 선택합니다. 컬럼 이름을 적절하게 입력한 후 **추가**\\를 누르세요. 새로운 Point"
+" 타입 컬럼이 생성되었습니다!"
+msgstr ""
+
+#: ../../discovery/part00/step1.rst:51 65288c64a7bf498daa70535265f9b8af
+msgid "create a new Point type column"
+msgstr ""
+
+# a1a706d3a6b24d838366d790bd736aba
+#: ../../discovery/part00/step1.rst:55 13e01c163cbe41b49b0f89972b88ed55
+msgid ""
+"스키마 구성 작업이 마무리되었으면 **다음**\\을 누릅니다. 필요한 경우 Druid의 수집 설정을 변경하는 작업입니다. 지금은 "
+"기본 설정으로도 충분합니다."
+msgstr ""
+
+#: ../../discovery/part00/step1.rst:57 bebde04f23424cb781a52f66daef214e
+msgid "druid ingestion setting"
+msgstr ""
+
+# 8f612909161248129727e6b98d63dc92
+#: ../../discovery/part00/step1.rst:61 23c52b3993054b6ba85056b7bd6c7040
+msgid ""
+"마지막으로 데이터 소스의 **이름**\\과 **설명**\\을 입력합니다. **마침**\\을 누르면 즉시 데이터 소스 상세로 "
+"넘어갑니다."
+msgstr ""
+
+#: ../../discovery/part00/step1.rst:63 c2d370503eba4933a167fd046b7974c7
+msgid "typing name and description for a new data source in metatron discovery"
+msgstr ""
+
+# 8d2258dfba484cef8a1aced0eac69075
+#: ../../discovery/part00/step1.rst:67 d8c9569a6cd44b80a37dca54a3114441
+msgid ""
+"데이터 소스 상세에서는 적재 현황을 실시간으로 볼 수 있습니다. 몇 분 기다리면 아래와 같이 적재가 성공했음을 알리며 히스토그램이 "
+"나타납니다. 혹시 다른 데이터 소스를 적재하다 에러가 났을 경우 **상세** 링크를 클릭하여 Druid 적재 로그를 조회할 수 "
+"있습니다. 컬럼명 중복, 컬럼 타입과 불일치하는 데이터 등으로 인해 적재가 실패할 수 있습니다. 이 경우 원인을 찾아 다시 적재를 "
+"시도해보아야 합니다."
+msgstr ""
+
+#: ../../discovery/part00/step1.rst:69 5c70a93b72864aedae8afcbcaa151364
+msgid "success for creation of data source for the metatron discovery"
+msgstr ""
+
+# 809e28c9af444651bb76700451f24926
+#: ../../discovery/part00/step1.rst:73 2bfd44193e374e82aa29b94b236e093b
+msgid ""
+"이 데이터 소스를 다른 사용자들에게 오픈하려면 **할당**\\에서 **모든 워크스페이스에 데이터소스를 사용하도록 허용** 체크박스에"
+" 체크합니다. 모든 사용자가 아니라 특정 사용자들에게만 오픈하고 싶으면 **수정**\\을 클릭하여 할당하고자 하는 개인 사용자들 "
+"또는 팀 워크스페이스를 선택합니다."
+msgstr ""
+
+#: ../../discovery/part00/step1.rst:75 9d79197867f64112b93b79f707de264f
+msgid "assign data source to specific workspaces"
+msgstr ""
+
+# 2916bd20bcba4c7abf93d046f6784fa5
+#: ../../discovery/part00/step1.rst:79 4b32aa61e27a48a7a3e1651148231caa
+msgid "이 예제에서는 모든 사용자가 사용할 수 있도록 **Open Data**\\로 설정하겠습니다."
+msgstr ""
+
+#: ../../discovery/part00/step1.rst:81 494690c59d8f4388a16b5c5b7a865f11
+msgid "make public data"
+msgstr ""
+
+# 3d38e122d9d649839f9bb5bca2848e63
+#: ../../discovery/part00/step1.rst:85 cc99740026bf42e881d4c67b884b1bc0
+msgid "적재된 데이터는 **데이터** 탭에서 조회할 수 있습니다."
+msgstr ""
+
+#: ../../discovery/part00/step1.rst:87 615b128b377f4d8f81be07cb6d07c14d
+msgid "data tab in metatron discovery"
+msgstr ""
+
+# 5be3f93cf4d042f19227782de10a32b4
+#: ../../discovery/part00/step1.rst:92 ae7f7f560cba4780b1eb3de616625216
+msgid "축하합니다! 이제 데이터 소스를 사용해 볼 차례네요. 다음 스텝으로 넘어가볼까요?"
+msgstr ""
+
+# ea691ed19cb14c549aaf1d02eb55c757
+#: ../../discovery/part00/step1.rst:94 29334e14205541438936fe9a997ef3a6
+msgid ":doc:`../part00/step2`"
+msgstr ""
+

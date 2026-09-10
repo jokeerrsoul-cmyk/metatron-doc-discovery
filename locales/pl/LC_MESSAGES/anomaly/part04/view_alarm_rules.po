@@ -1,0 +1,321 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, metatron team
+# This file is distributed under the same license as the metatron discovery
+# docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: metatron discovery docs 0.4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+# 1e214ca0361c4afcb825e1a00b3ace87
+#: ../../anomaly/part04/view_alarm_rules.rst:2 c920e3d7974b4409a1b636b533ea8dd7
+msgid "알람 룰 내역 열람·수정하기"
+msgstr ""
+
+# 618292b1cad9498f88397af9e2edcf99
+#: ../../anomaly/part04/view_alarm_rules.rst:9 869c750991104236b07ef7da728f59ff
+msgid ""
+"**Alarm Rule** 탭 메뉴에서는 등록된 알람 룰을 열람·수정할 수 있습니다. 또한 이 메뉴에서는 선택한 예측 모델에 따라 "
+"산출되고 있는 데이터 abnormal score 현황도 쉽게 파악할 수 있습니다."
+msgstr ""
+
+# fa949243e51e43dca1728bfa2f8cda10
+#: ../../anomaly/part04/view_alarm_rules.rst:11
+#: 1e12de59412d44bfb6c7429028809698
+msgid ":ref:`alarm_rule_list`"
+msgstr ""
+
+# 2b4289e0f5224f3486b0dc0e74486391
+#: ../../anomaly/part04/view_alarm_rules.rst:12
+#: 20ded9f2c69c4b94bcb73c5d69d90357
+msgid ":ref:`alarm_rule_details`"
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:13
+#: fb6678862a4443e4a6567dc848271ccc
+msgid ":ref:`alarm_rule_group`"
+msgstr ""
+
+# 9bf9ffc8049d44ba8e5ad71045187a8f
+#: ../../anomaly/part04/view_alarm_rules.rst:18
+#: 2f617a8ee38847219ffe85704edaeed2
+msgid "알람 룰 리스트"
+msgstr ""
+
+# 032f4a2a7a2e4db5b5c5a374adefc35d
+#: ../../anomaly/part04/view_alarm_rules.rst:20
+#: b55df74fbf96437baa9728dc4702d095
+msgid "**Alarm Rule** 탭으로 들어가면 현재 등록된 알람 룰들을 열거하여 보여줍니다."
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:22
+#: 5dc2e52adf224c52b4ce094e8bc9b4be
+msgid "alarm rule list"
+msgstr ""
+
+# 2cd1591ff1e5415dbdbd653503143942
+#: ../../anomaly/part04/view_alarm_rules.rst:26
+#: 5abe781224494acbacd3ec8e0f18cee5
+msgid "리스트에 표시되는 정보는 아래와 같으며, 이를 기준으로 열거할 룰을 필터링하거나 검색할 수 있습니다."
+msgstr ""
+
+# d0353bd274bf4113bdcf123ab50bb82b
+#: ../../anomaly/part04/view_alarm_rules.rst:28
+#: bede7a0730e94ca8a13d09d16bcc447f
+msgid "**Current Status:** 해당 룰에 따른 모니터링 결과 상태"
+msgstr ""
+
+# b9a244b10fd34f80948c55ee72a2a7f8
+#: ../../anomaly/part04/view_alarm_rules.rst:29
+#: 70c9bb7f9b4540b3b59d6237c2a5a89a
+msgid "**Alarm Rule Name:** 해당 룰의 이름"
+msgstr ""
+
+# de6563bff91a4e5bab1220b0fc8cdc68
+#: ../../anomaly/part04/view_alarm_rules.rst:30
+#: 6b9321abb2d5491ab213ec94de85613d
+msgid "**DataSource:** 모니터링 대상 데이터 소스"
+msgstr ""
+
+# 74ecf9e1a2ec401bb0aa83ef4c9f8fb0
+#: ../../anomaly/part04/view_alarm_rules.rst:31
+#: 07bfa134ea874797951d37695281a1fe
+msgid "**Measure:** 모니터링 대상 측정값 컬럼"
+msgstr ""
+
+# 13a75e573d1a4520a5ed8d7e47c31ffe
+#: ../../anomaly/part04/view_alarm_rules.rst:32
+#: d65506c40a14402f85237a4c323e1707
+msgid "**Alarm Interval:** 알람 발생 주기"
+msgstr ""
+
+# 7109b6c3814a49f1833cc629fd3d0ae9
+#: ../../anomaly/part04/view_alarm_rules.rst:33
+#: f14ec6e162724355b0f8d9ebdb9cb5ef
+msgid "**Condition:** 해당 룰에 적용된 알람 발생 조건의 개수"
+msgstr ""
+
+# 3564b379d43a486c9a6f7ff9e0687b4a
+#: ../../anomaly/part04/view_alarm_rules.rst:34
+#: 25492c32dcba4631bb35060038dbea1c
+msgid "**Alarm:** 해당 룰에 의해 발생한 알람의 수"
+msgstr ""
+
+# d70239820f06402aa3ff180f7c9e5390
+#: ../../anomaly/part04/view_alarm_rules.rst:35
+#: 409ef937ad664a5b95e9e866c6e6e1b0
+msgid "**Running:** 해당 룰의 모니터링 활성 여부"
+msgstr ""
+
+# 5eabda1e9edd4014824d5d592f53ed59
+#: ../../anomaly/part04/view_alarm_rules.rst:36
+#: ac6889f193784e918e75e1ef305a4197
+msgid "**Updated:** 해당 룰을 마지막으로 업데이트한 시간과 사용자"
+msgstr ""
+
+# cbfc5c6864e3432e98c25c19ea39f7b1
+#: ../../anomaly/part04/view_alarm_rules.rst:37
+#: 64309c8ebbb24ab89dc35b1d9739bec8
+msgid "**Owner:** 해당 룰을 생성한 사용자"
+msgstr ""
+
+# c39f4df37f834372ae8d18823544dbbf
+#: ../../anomaly/part04/view_alarm_rules.rst:42
+#: 32b2f31631be4136b7d7b6e07d465b24
+msgid "알람 룰 상세"
+msgstr ""
+
+# 6a058151f5454c1cb46fcba8272d5734
+#: ../../anomaly/part04/view_alarm_rules.rst:44
+#: 7fa3359089d94822b3ea2adccc0fae28
+msgid ""
+"알람 룰 리스트에 열거된 항목 중 하나를 선택하면 해당 알람 룰에 대한 상세 정보를 열람하고 설정을 수정할 수 있습니다. 화면 "
+"좌측에서는 모니터링 현황을 시각화하여 보여주고, 우측에는 알람 룰 조건 설정값이 표시됩니다."
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:46
+#: 58261852b0474ae0b0714e6dc3d717a3
+msgid "alarm rule detail"
+msgstr ""
+
+# 6d159de3dc704a54bab94279cd0bed53
+#: ../../anomaly/part04/view_alarm_rules.rst:50
+#: 8019f37abf844fb4b82906b785ed9887
+msgid ""
+"모니터링 현황 영역 상단에는 화면에 보여주는 모니터링 기간 설정값이 표시되어 있습니다. |icon_period_edit| 아이콘을 "
+"클릭하면 기간 설정값을 변경할 수 있습니다."
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:4 05af7face4e649d783ee6a54035bbd11
+msgid "icon_period_edit"
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:52
+#: 56464e9b09cc4de0afdb0ee1b5a8ae72
+msgid "change visualize range"
+msgstr ""
+
+# 7c66544dc27646b19d988b850122f8bf
+#: ../../anomaly/part04/view_alarm_rules.rst:56
+#: 057e01c4b7904c1d8db7f9a6f25eea52
+msgid "우측의 조건 영역은 해당 룰의 전반적인 설정을 조정할 수 있습니다."
+msgstr ""
+
+# 13a75e573d1a4520a5ed8d7e47c31ffe
+#: ../../anomaly/part04/view_alarm_rules.rst:58
+#: 089e60d1adfe4ad38e977aa698d01f75
+msgid "**Alarm Start:** 알람이 발생하는지 검사하기 시작한 시간"
+msgstr ""
+
+# 13a75e573d1a4520a5ed8d7e47c31ffe
+#: ../../anomaly/part04/view_alarm_rules.rst:59
+#: f8112092afe143d899aa199780fb3e40
+msgid "**Alarm Interval:** 시스템이 알람 발생 조건을 검사하는 주기"
+msgstr ""
+
+# 0e2e123b4ace4a0998aae0d8fde2d2b6
+#: ../../anomaly/part04/view_alarm_rules.rst:60
+#: 1a1b1ec8e88a4be7b5d1e1e5a2602e12
+msgid "**Running State:** 해당 알람 룰 조건을 검사하는 중인지(Running) 안 하는 중인지(Stopped)에 관한 여부"
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:62
+#: ../../anomaly/part04/view_alarm_rules.rst:68
+#: ../../anomaly/part04/view_alarm_rules.rst:77
+#: ../../anomaly/part04/view_alarm_rules.rst:84
+#: 1d8569852ac344ecb6edc5b8a33287ee 36c03bda673e48c2b9dee1e093afcaf9
+#: 4568dc913318457d81bc8ba88b813de7 84656ed62c3f4752bb59ff8f2a43f116
+msgid "change alarm rule condition"
+msgstr ""
+
+# 76e9fcf49e1f4ada99fbfc04310e1796
+#: ../../anomaly/part04/view_alarm_rules.rst:66
+#: 81b7c7ac7dd14f96b0dddf31708bc3b9
+msgid "Subscribers 우측 아이콘을 누르면 해당 알람 룰의 구독자를 추가/변경할 수 있습니다."
+msgstr ""
+
+# ac575a372d02431c8156f3b9f55d8831
+#: ../../anomaly/part04/view_alarm_rules.rst:72
+#: dcfbef810ab3431fa80f5e16243a7d10
+msgid ""
+"해당 룰로 인해 알람이 발생 할 때 추가적인 작업을 하도록 설정할 수 있는 Post Processing을 제공합니다. Post "
+"Processing은 현재 두 가지 기능을 제공하고 있습니다."
+msgstr ""
+
+# 0042998a17e74b3dbd4fad2211b060c1
+#: ../../anomaly/part04/view_alarm_rules.rst:74
+#: 4aa3fc8462b34ce4a51bb690872ee44f
+msgid "**Script Execution:** 쉘 스크립트를 등록하여 실행"
+msgstr ""
+
+# e43aad90ceda40bb9a093114e75abbf9
+#: ../../anomaly/part04/view_alarm_rules.rst:75
+#: 26c10b1a5b374e1496495aedc5b30d82
+msgid "**Additional Chart:** 알람 상세에 표 차트를 노출"
+msgstr ""
+
+# 5a5da0ab85bf4c9586c274408e7c9f24
+#: ../../anomaly/part04/view_alarm_rules.rst:82
+#: 34969430e08c49d6996a5e4d1c7438dc
+msgid ""
+"또한 기존에 설정된 알람 발생 기준값을 수정할 수 있습니다. 자세한 내용은 :ref:`alarm_rule_settings` 항목을 "
+"참조하십시오."
+msgstr ""
+
+# e9c8ca3340164fecb24a10dcc59652ae
+#: ../../anomaly/part04/view_alarm_rules.rst:88
+#: 18b332bb6cff4471bbe8feaeba8c0ad3
+msgid ""
+"우측 끝단에서 |icon_alarm_history| 버튼을 누르면 **Conditions** 패널이 **Alarm History**"
+" 패널로 전환되어 지금까지 발생한 알람 이력을 보여줍니다(다시 |icon_rule_settings_edit| 버튼을 누르면 "
+"**Conditions** 패널로 되돌아옵니다)."
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:6 54651ea304ce46f08263c5416fe34a22
+msgid "icon_alarm_history"
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:5 e40c33af3bbc4031917f081e226b6149
+msgid "icon_rule_settings_edit"
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:90
+#: b1d28963e8b84ec09f34bc1b640431f7
+msgid "list alarm history"
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:97
+#: 9af11779c68546149619da4ab6408a03
+msgid "알람룰 그룹 및 복수 알람룰 관리"
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:99
+#: e3896d8430e04da98200824789673f30
+msgid ""
+"메타트론 어노말리에는 복수개의 알람룰을 함께 그룹핑할 수 있는 알람룰 그룹이 존재합니다. 알람룰 리스트 상에서 폴더 아이콘으로 "
+"표시되며 클릭하면 해당 룰 그룹에 속한 알람 룰들의 리스트로 이동합니다."
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:101
+#: 4ae1ca0ef79441f0a7272c1486403d6b
+msgid "alarm rule group"
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:105
+#: 47467e94693e499d8292577fb27ff0e9
+msgid ""
+"알람룰 그룹에 룰을 이동하거나 복수의 알람룰들의 조건 변경, 재학습을 위해서는 룰 이름 앞의 체크박스 선택 후 우측 상단의 메뉴에서"
+" 각 액션을 선택하여 진행합니다."
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:107
+#: 9712204bd4784d64a7fa5e9d8251f6d4
+msgid "edit multiple alarm rules"
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:111
+#: 30211ef7711b4d8d88af74099eaee2ab
+msgid "**Cretae New Group**\\: 새로운 알람룰 그룹을 생성합니다. 이름과 설명을 입력하면 즉시 룰그룹이 생성됩니다."
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:112
+#: a68d09a741694a9badfb574771af9224
+msgid "**Set Alarm Rule Condition**: 선택된 복수의 알람룰의 조건을 동시에 변경합니다."
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:113
+#: 58400b28911b4a2588fc5ac5b8e851d1
+msgid ""
+"**Move Alarm Rule Condition**: 선택된 알람룰들을 루트에서 특정 룰그룹으로, 또는 룰그룹에서 루트로 "
+"이동합니다."
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:114
+#: 4fcda089c85c470c80933d73823f2295
+msgid ""
+"**Alarm Rule Retraining**: 선택된 복수의 알람룰들을 동시에 재학습합니다. 이때 모델은 추천 모델로 자동 "
+"선택됩니다."
+msgstr ""
+
+#: ../../anomaly/part04/view_alarm_rules.rst:115
+#: 85fc21dea70e403abb0dcdd15392fafb
+msgid "**Delete Group and Alarm Rule**: 선택된 알람룰 및 룰그룹을 삭제합니다."
+msgstr ""
+
+# 309571a9f4654b04b72418a2e8446167
+#~ msgid "알람 룰 메뉴는 다음의 두 가지 페이지로 구성되어 있습니다."
+#~ msgstr ""
+

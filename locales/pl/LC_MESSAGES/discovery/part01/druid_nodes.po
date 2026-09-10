@@ -1,0 +1,277 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, metatron team
+# This file is distributed under the same license as the metatron discovery
+# docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: metatron discovery docs 0.4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+# fd6dff1f52b64e21b2d0ef5eee1a9433
+#: ../../discovery/part01/druid_nodes.rst:2 a7881dadabb945a5b5a8778dd1b7e0dd
+msgid "Druid 기본 클러스터 아키텍쳐"
+msgstr ""
+
+# 0a06c634c5e84e84a3ef0e2843f7af6d
+#: ../../discovery/part01/druid_nodes.rst:4 c40dcd97bfa4417c9546572e2bd9aa99
+msgid "Druid 클러스터는 여러 유형의 노드군으로 구성되며, 각 유형의 노드군별로 고유의 역할을 수행합니다."
+msgstr ""
+
+#: ../../discovery/part01/druid_nodes.rst:6 801c54a887b74adba52d5caff1d55ea1
+msgid "Metatron 노드 아키텍쳐"
+msgstr ""
+
+# 20563e2617ce4e2fa2bd56b3bfbeac27
+#: ../../discovery/part01/druid_nodes.rst:13 10f1e8f5814346dbbd31f988624d169e
+msgid "Real-time 노드"
+msgstr ""
+
+# 4cd8f61b77cb4a728523946822ff025b
+#: ../../discovery/part01/druid_nodes.rst:15 18840ec01fbf446b932a351d6a4ec56c
+msgid ""
+"real-time 노드군은 이벤트 스트림을 ingestion하고 쿼리하는 기능을 합니다. 이 노드들은 최근 발생한 짧은 시간 범위 "
+"내 이벤트들만을 처리하며, 주기적으로 이들을 딥 스토리지로 넘기는데, 그 절차는 다음과 같습니다."
+msgstr ""
+
+#: ../../discovery/part01/druid_nodes.rst:17 278ddafdbbee4317941dd5d84376033c
+msgid "Data processing in real-time nodes"
+msgstr ""
+
+# de57b917a8424b99b35abf4a7a5cff97
+# c9f36e2ebb4f47df9a158cf4dca4bce0
+# 70909245385c47ab9fbacea56496a6ef
+#: ../../discovery/part01/druid_nodes.rst:21
+#: ../../discovery/part01/druid_nodes.rst:45
+#: ../../discovery/part01/druid_nodes.rst:66 291795846cce422fb6f3c38719309b71
+#: a918675a5c3443eab232f2276eca5a42 aac997ea7e6b413ebbaddade34bfd9ec
+msgid "Source: Druid: A Real-time Analytical Data Store"
+msgstr ""
+
+# 462d17cd0d164584bcef78b002c43fb7
+#: ../../discovery/part01/druid_nodes.rst:23 1d9b1852f63a46369d1ef7e100d59a51
+msgid "유입되는 이벤트들은 메모리에 인덱싱되면서 즉시 쿼리에 사용될 수 있습니다."
+msgstr ""
+
+# 6088774bfed34cf5af9fcf6889c45dd6
+#: ../../discovery/part01/druid_nodes.rst:24 cf5f8b31c5554118ab228781665cb07a
+msgid "메모리 상의 데이터는 정기적으로 디스크에 저장되면서 수정 불가능한(읽기 전용) 컬럼형 포맷으로 변환됩니다."
+msgstr ""
+
+# 1351e900ea7a4e77a652c95e622afc3f
+#: ../../discovery/part01/druid_nodes.rst:25 c9f3f518c5cd4be08bd4b26c145f185f
+msgid "저장된 데이터는 off-heap 메모리로 로드되기 때문에 쿼리 가능한 상태가 유지됩니다."
+msgstr ""
+
+# fe457e93fa2e44828a94ebd219a789d9
+#: ../../discovery/part01/druid_nodes.rst:26 798385eddacf491f99d140afd4900b07
+msgid "디스크에 저장된 인덱스들을 주기적으로 병합되어 데이터 '세그먼트'를 구성한 후 딥 스토리지로 이관됩니다."
+msgstr ""
+
+# 3758264520e9437d81336f57c14050fc
+#: ../../discovery/part01/druid_nodes.rst:28 ca3c3d5a8fda4f4bb05e6fab1bb9c38c
+msgid ""
+"이런 식으로 real-time 노드로 ingestion된 모든 이벤트는 디스크 저장 전후를 막론하고 on-heap 또는 off-"
+"heap 메모리 상에 존재하므로 쿼리가 가능한 상태를 유지합니다(쿼리는 메모리 상의 인덱스와 디스크에 저장된 인덱스 모두에 "
+"전달됩니다). 이러한 real-time 노드 기능을 통해 Druid는 실시간 데이터 ingestion을 수행할 수 있습니다. 즉, "
+"이벤트들이 발생하면 곧 이어서 쿼리 대상이 됩니다. 그리고 이러한 과정에서 데이터 손실이 발생하지 않습니다."
+msgstr ""
+
+# 35ed866242c749fa81f3d600a7bee84a
+#: ../../discovery/part01/druid_nodes.rst:30 5212886fb1ac4bb19917355852ec6130
+msgid ""
+"real-time 노드는 Druid 클러스터 내 다른 노드들과의 유기적인 동작을 위해 자신의 온라인 상태와 처리 중인 데이터를 "
+"Zookeeper(:ref:`external_dependencies` 참조)에 보고합니다."
+msgstr ""
+
+# c2475365eb7d4b3a8aa0c9cd01be22f6
+#: ../../discovery/part01/druid_nodes.rst:35 b70408d758044d23925b6c69168753c1
+msgid "Historical 노드"
+msgstr ""
+
+# 302a3fc83ceb42bfbaaedf45c223fd75
+#: ../../discovery/part01/druid_nodes.rst:37 f3c5b8fd210e4faaaa5de9179614ba48
+msgid ""
+"historical 노드군은 real-time 노드가 생성한 읽기 전용 데이터 블록(세그먼트)을 로드하고 처리하는 기능을 합니다. "
+"이 노드들은 딥 스토리지에서 읽기 전용 세그먼트를 다운로드하고 이에 대한 쿼리를 처리합니다(예: 데이터 집계/필터링). 이 노드들은"
+" shared-nothing 아키텍쳐에 기반하며 동작이 단순합니다. 이들 간에는 경합이 발생하지 않으며 단순히 Zookeeper의 "
+"지시에 따라 세그먼트를 로드, 드롭, 처리할 뿐입니다."
+msgstr ""
+
+# 799855cd14eb4b6090e8c0ba1085f521
+#: ../../discovery/part01/druid_nodes.rst:39 d0bffd8e93ac4289b7858e06dd981f44
+msgid "historical 노드가 쿼리를 처리하는 프로세스는 다음과 같습니다."
+msgstr ""
+
+#: ../../discovery/part01/druid_nodes.rst:41 48f2c0d804c74a6f9f974fb7cc3cc364
+msgid "Historical nodes download data from deep storage and load it in memory"
+msgstr ""
+
+# a8ce704653d045b28c8193c01058c0be
+#: ../../discovery/part01/druid_nodes.rst:47 1198cdb6de984ad3818394b170cbbd79
+msgid ""
+"쿼리를 받으면 historical 노드는 우선 자신에게 이미 어떤 세그먼트가 존재하는지에 관한 정보를 보관하는 로컬 캐시를 "
+"확인합니다. 어떤 세그먼트에 관한 정보가 캐시에 없으면 노드는 딥 스토리지에서 해당 세그먼트를 다운로드합니다. 그런 다음, 해당 "
+"세그먼트는 Zookeeper에서 선언되어 쿼리가 가능한 대상이 되며, 노드는 이 세그먼트에 대해 요청된 쿼리를 수행합니다."
+msgstr ""
+
+# 477eeb650674482688d021de3ac30376
+#: ../../discovery/part01/druid_nodes.rst:49 169b77369520424fa8a274c8c389973a
+msgid ""
+"historical 노드는 읽기 전용 데이터만을 다루므로 read consistency를 보장할 수 있습니다. 읽기 전용 데이터 "
+"블록들은 또한 단순한 병렬 모델을 가능케 합니다. 즉, historical 노드들은 읽기 전용 데이터 블록들을 서로 간섭하지 않고 "
+"동시에 스캔·집계할 수 있습니다."
+msgstr ""
+
+# 767d1311a6d04088a03b10e1162c4bc8
+#: ../../discovery/part01/druid_nodes.rst:51 b06089f0695d4c7e9e226ffea4ebb1be
+msgid ""
+"real-time 노드와 마찬가지로 historical 노드들도 자신들의 온라인 상태와 처리 중인 데이터를 Zookeeper에 "
+"보고합니다."
+msgstr ""
+
+# 1667440a34df4317910fa8182c25a943
+#: ../../discovery/part01/druid_nodes.rst:56 fc9769d5526d4ddeb67eeff43c73ac5f
+msgid "Broker 노드"
+msgstr ""
+
+# 43e8ee26d8d54eafa4c46833a5489660
+#: ../../discovery/part01/druid_nodes.rst:58 2df7cba60d9d44359f4a3cdfefe188e8
+msgid ""
+"broker 노드군은 Zookeeper에 보고된 메타데이터를 통해 어떤 세그먼트들이 쿼리 가능한지와 이 세그먼트들이 각각 어디에 "
+"저장되어 있는지를 파악합니다. broker 노드들은 입력된 쿼리들의 경로를 지정함으로써 각 쿼리가 올바른 historical 또는 "
+"real-time 노드에 도달되게끔 합니다. 그런 다음 historical 및 real-time 노드 각각에서 산출된 결과들을 "
+"취합하여 최종 쿼리 결과를 호출자에게 반환합니다."
+msgstr ""
+
+# 9e86e18f88214c62b918c0b55f19b8df
+#: ../../discovery/part01/druid_nodes.rst:60 54ae4d2bce394817a17f9007aa9cb5d8
+msgid "broker 노드는 리소스 효율성을 높이기 위해 다음과 같이 캐시를 사용합니다."
+msgstr ""
+
+#: ../../discovery/part01/druid_nodes.rst:62 c267827c1fba45169a8d909ae3e27d92
+msgid "Caching in broker nodes"
+msgstr ""
+
+# 19980cb12a3f41dfa93d23a9ae891eb0
+#: ../../discovery/part01/druid_nodes.rst:68 a1d49ab492424db7b44f32691877d9f1
+msgid ""
+"어떤 쿼리가 여러 세그먼트를 포괄할 경우 broker 노드는 캐시에 이미 존재하는 세그먼트들을 우선 확인합니다. 그리고 캐시에 없는"
+" 세그먼트들에 대해서는 그것이 보관된 historical 및 real-time 노드로 쿼리를 전달합니다. historical "
+"노드들이 결과를 반환하면, broker 노드는 이 결과를 나중에 사용할 수 있도록 세그먼트별로 캐시에 저장합니다. real-time"
+" 노드의 데이터는 캐시에 저장되지 않으며, 따라서 real-time 데이터에 대한 요청은 항상 real-time 노드로 전달됩니다."
+" real-time 노드의 데이터는 가변적이기 때문에 그 결과를 캐시에 저장하는 것은 안정적이지 않기 때문입니다."
+msgstr ""
+
+# e6ce794ca5fc490dbe87184a53ff1488
+#: ../../discovery/part01/druid_nodes.rst:73 e0a7978668744a4083b1233dedb1fdc3
+msgid "Coordinator 노드"
+msgstr ""
+
+# 7481e4d9c0ab439fbf01641d7115fedd
+#: ../../discovery/part01/druid_nodes.rst:75 de146bb723b747579752167e059c720a
+msgid ""
+"coordinator 노드군은 주로 historical 노드 데이터의 관리 및 분산을 담당합니다. coordinator 노드는 어떤"
+" historical 노드가 어떤 세그먼트에 대해 쿼리를 수행할지 결정하고 이들에게 새 데이터를 로드하고, 기한이 지난 데이터를 "
+"드롭하고, 데이터를 복제하고, 데이터를 이동하여 부하 밸런스를 맞추도록 지시합니다. 이렇게 함으로써 분산형 historical 노드"
+" 그룹에서 빠르고 효율적이며 안정으로 데이터를 처리할 수 있습니다."
+msgstr ""
+
+# 3f2a9a812040414dbbdded2637dec735
+#: ../../discovery/part01/druid_nodes.rst:77 f707475b707a446cb268b63d53754eb5
+msgid ""
+"다른 모든 Druid 노드와 마찬가지로, coordinator 노드들도 Zookeeper 연결을 유지함으로써 클러스터의 현황을 "
+"파악합니다. coordinator 노드들은 MySQL 데이터베이스와의 연결도 유지하는데, 이 데이터베이스에서는 클러스터 내 "
+"세그먼트의 생성, 소멸, 복제 규칙과 같은 추가적인 연산 매개변수 및 구성 정보를 관리합니다."
+msgstr ""
+
+# d19839e5f4bd4cf3b6e91147a41cab9b
+#: ../../discovery/part01/druid_nodes.rst:79 2fbe948f9af9489eabb965f3df38c51d
+msgid ""
+"Druid 클러스터의 안정성을 위해 coordinator 노드는 이중화되며 일반적으로 하나의 coordinator 노드만 활성 "
+"상태를 유지합니다."
+msgstr ""
+
+# 56a2db488c1e4456a012e59dd1dff936
+#: ../../discovery/part01/druid_nodes.rst:84 ea73c9ffd9f344f785ac302005a686d3
+msgid "외부 종속 모듈"
+msgstr ""
+
+# a889fe83c504443b99704659f8d32752
+#: ../../discovery/part01/druid_nodes.rst:86 8026bf6be9a84b11acc98a5facd01aa6
+msgid "Druid는 클러스터 동작을 위해 몇 가지 외부 종속 모듈을 사용합니다."
+msgstr ""
+
+# 06f66055b3d94386b6b94258c4bdcc5c
+#: ../../discovery/part01/druid_nodes.rst:88 7008a9739b7b48188e84dfc26defde6a
+msgid "**Zookeeper:** Druid는 Zookeeper를 통해 클러스터 내부 통신을 합니다."
+msgstr ""
+
+# bfc5ec8b5f7e4cb2a570ff554ca2be75
+#: ../../discovery/part01/druid_nodes.rst:89 bf89593934304f3faf1607bad00410c8
+msgid ""
+"**메타데이터 스토리지:** Druid는 메타데이터 스토리지를 통해 데이터 세그먼트 및 구성에 관한 메타데이터를 저장합니다. "
+"메타데이터 스토리지로는 주로 MySQL과 PostgreSQL이 사용됩니다."
+msgstr ""
+
+# 4bb8903fd8984f1e9ea354cac7089108
+#: ../../discovery/part01/druid_nodes.rst:90 9e1469fda95a46169c8e2ce87a28a145
+msgid ""
+"**딥 스토리지:** Druid 세그먼트들을 영구적으로 백업 저장하는 공간입니다. Druid에 ingestion되는 데이터는 "
+"세그먼트 형태로 딥 스토리지에 업로드되고, historical 노드들이 필요한 세그먼트를 여기서 다운로드합니다. 딥 스토리지로는 "
+"주로 S3 및 HDFS가 사용됩니다."
+msgstr ""
+
+# de6ea8eefcb54dfea4218352076f9c13
+#: ../../discovery/part01/druid_nodes.rst:95 ebeec511a86643cda070de1a0a7e7a5d
+msgid "High Availability 특성"
+msgstr ""
+
+# 117da2eb07d44b8dadab4da1bb34eef6
+#: ../../discovery/part01/druid_nodes.rst:97 fde9aa59cc5f417c80235c72377bb545
+msgid ""
+"Druid는 어느 한 노드가 고장난다고 해서 클러스터의 동작이 중단되지 않도록 설계되었습니다. 또한 서로 다른 유형의 노드군끼리도 "
+"상호 간에 상당히 독립적이기 때문에, 클러스터 내부에 통신 장애가 생겨도 데이터 가용성에는 최소한의 영향만을 미칩니다. Druid "
+"클러스터에서 highly availability를 확보하려면, 노드군별로 2개 이상의 노드가 구성되어야 합니다."
+msgstr ""
+
+# 8fda674453b1453893891a3a2e47b62c
+#: ../../discovery/part01/druid_nodes.rst:102 9c35af1ceb5946f3ac4328165a32080a
+msgid "아키텍쳐 확장성"
+msgstr ""
+
+# 511f52987c794c58a34086fd2c5414e5
+#: ../../discovery/part01/druid_nodes.rst:104 2e8c85987096472e8446e95f126ed9f3
+msgid ""
+"Druid는 위에서 소개한 기본 아키텍쳐에 다양한 외부 모듈을 추가할 수 있는 모듈 확장형 플랫폼을 지향합니다. 아래는 Druid의"
+" 확장성을 활용한 모듈 조합의 예시입니다."
+msgstr ""
+
+#: ../../discovery/part01/druid_nodes.rst:106 14ab2009466b42d5a4f62037a88ec2c4
+msgid "Example of Druid’s extended architecture"
+msgstr ""
+
+# efeb72d1ceac4e38bf39ddcd9dd894f9
+#: ../../discovery/part01/druid_nodes.rst:110 3670187e6f364d1dae9c2aca7633c802
+msgid "Source: MetaMarkets - Introduction to Druid by Fangjin Yang"
+msgstr ""
+
+# 7650221f499c492199d28dffbd7c9327
+#: ../../discovery/part01/druid_nodes.rst:112 050930942db24b7aa7e6c0225a2c9291
+msgid ""
+"Metatron Discovery 엔진도 역시 비즈니스 인텔리전스를 위한 end-to-end 솔루션으로서 기능하기 위해 Druid "
+"엔진 전후단에 다양한 모듈을 추가한 것입니다."
+msgstr ""
+

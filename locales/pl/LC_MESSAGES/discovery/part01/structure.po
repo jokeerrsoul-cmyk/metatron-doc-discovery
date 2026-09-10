@@ -1,0 +1,195 @@
+# This file is distributed under the same license as the metatron discovery
+# docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: metatron discovery docs 0.4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+# d2173c5a46e74fdaac0e888108ea7376
+#: ../../discovery/part01/structure.rst:2 7f769fe343d94537ba4fe1a5b7652989
+msgid "Metatron Discovery 구성"
+msgstr ""
+
+# 7abb39285f28496fa7e9ebf2aef174ad
+#: ../../discovery/part01/structure.rst:4 a0e09451ad344dc79996218b3c9f50af
+msgid ""
+"Metatron Discovery는 Metatron 운용 서버에 적재된 데이터 소스나 그 밖의 외부 데이터 소스로부터 원하는 "
+"데이터를 불러와서 각종 고급 분석 기능을 통해 분석한 후, 그 결과를 다양한 형식의 차트와 보고서로 출력하는 기능을 합니다. 본 "
+"모듈을 이용하려면 다음과 같은 전반적인 구조를 이해해야 합니다."
+msgstr ""
+
+#: ../../discovery/part01/structure.rst:6 4fd7dcac41fc4cdca282ee9dec111aab
+msgid "Metatron Discovery 기능도"
+msgstr ""
+
+# 9a0102eb4ca84bf383d4dc9dcb378014
+#: ../../discovery/part01/structure.rst:12 db84bb840fd247f093a3b9b6c0914e74
+msgid "데이터 프리퍼레이션"
+msgstr ""
+
+# f00092006b084f0aa79695027bf58c16
+#: ../../discovery/part01/structure.rst:13 be7517ce86dd4163931d15c312bfd14c
+msgid ""
+"데이터 프리퍼레이션은 원천 데이터에서부터 데이터를 정제 및 가공하여 Metatron으로 적재하는 기능을 제공합니다. 데이터 "
+"프리퍼레이션에 대한 자세한 설명은 :doc:`../part07/index` 항목을 참조하십시오."
+msgstr ""
+
+#: ../../discovery/part01/structure.rst:15 cb897241edb949649f654d0c274bf5f9
+msgid "프리퍼레이션 화면"
+msgstr ""
+
+#: ../../discovery/part01/structure.rst:19 bfeca0a8ea1145b794213f8b6d0b7f45
+msgid "데이터 스냅샷 상세 화면"
+msgstr ""
+
+# 46af07dbae204e2ab28f5c3dd5872cbc
+#: ../../discovery/part01/structure.rst:24 dd2fd340fc9243c288481b2330a966e1
+msgid "데이터 스토리지"
+msgstr ""
+
+# 667ec492d5d04c5bad2cad56832d1c0b
+#: ../../discovery/part01/structure.rst:25 14f2274ca9d04b45994047b7ef5a9b4c
+msgid ""
+"데이터 스토리지는 분석·시각화를 위해 Metatron 엔진에 적재된 데이터를 관리합니다. 데이터 관리 기능에 대한 자세한 설명은 "
+":doc:`../part02/index` 항목을 참조하십시오."
+msgstr ""
+
+#: ../../discovery/part01/structure.rst:27 6461ad2a91e24ff28f7f3606da301604
+msgid "데이터 소스 상세 화면"
+msgstr ""
+
+#: ../../discovery/part01/structure.rst:31 64d974b6ca1040d2925581f486e4452a
+msgid "데이터 소스 생성 화면"
+msgstr ""
+
+# c749720838454665a4ff53454b277ba7
+#: ../../discovery/part01/structure.rst:37 51a017fb55c14f50896c7e090e0a66e5
+msgid "데이터 분석 및 시각화"
+msgstr ""
+
+# da9e0e008efb46d4bc293b5c33038695
+#: ../../discovery/part01/structure.rst:38 436f566086f24e96aae6043ad57846c8
+msgid "아래 각 모듈은 데이터 스토리지에 저장한 데이터를 사용자가 시각화 기반 탐색, 분석하는 기능을 제공합니다."
+msgstr ""
+
+# 1161ebadd90f4cb2a877f9365a2edc44
+#: ../../discovery/part01/structure.rst:41 6a610f1a2bb64686b0487beef6820968
+msgid "워크스페이스"
+msgstr ""
+
+# 5ac1062b9138486d82bf971bbdd5aab3
+#: ../../discovery/part01/structure.rst:42 3b03f1055ed14348b5bcdad65e29c9ab
+msgid ""
+"워크스페이스는 조직 내에서 사용할 워크북, 워크벤치, 노트북을 권한에 따라 관리할 수 있습니다. 워크스페이스 기능에 대한 자세한 "
+"설명은 :doc:`../part03/index` 항목을 참조하십시오."
+msgstr ""
+
+#: ../../discovery/part01/structure.rst:44 645f3d4813c04ab08bf48df59539c3c2
+msgid "워크스페이스 화면"
+msgstr ""
+
+# 5c89802f8e854194b0d5984e80581b83
+#: ../../discovery/part01/structure.rst:49 e5474830cf6d4b168982052a7453bc88
+msgid "워크북, 대시보드, 차트"
+msgstr ""
+
+# 741cf3d5c9094b139de0e5a86fa5f3bd
+#: ../../discovery/part01/structure.rst:50 bfed2d172a24442e8075793f3494f543
+msgid ""
+"워크북은 그 안에 담긴 여러 대시보드와 차트를 PPT처럼 작업하고 이를 공유·프리젠테이션할 수 있게 해주는 모듈입니다. 워크북 "
+"기능에 대한 자세한 설명은 :doc:`../part04/index` 항목을 참조하십시오."
+msgstr ""
+
+#: ../../discovery/part01/structure.rst:52 82f4f29952c74a82a30db4ccebafd12b
+msgid "대시보드 화면"
+msgstr ""
+
+#: ../../discovery/part01/structure.rst:56 79d5ba19d6064066a4af8c308bbdff95
+msgid "차트 화면"
+msgstr ""
+
+#: ../../discovery/part01/structure.rst:60
+#: ../../discovery/part01/structure.rst:68 7802fa4703a54584b035a402c4e992d4
+#: d3ce55612f8f48f88d889dbba97cc0ad
+msgid "맵 차트 화면"
+msgstr ""
+
+# 0547034fa22b4dee9894c9a834046523
+#: ../../discovery/part01/structure.rst:65 117b392d9087431ca4e4be007b732b8d
+msgid "노트북"
+msgstr ""
+
+# 61f904cdb5214516a8ff6decc3b612e0
+#: ../../discovery/part01/structure.rst:66 3a2ae2bb4bef4d5db6b8ae3deef232eb
+msgid ""
+"노트북에서는 Machine Learning 기반 고급 분석을 수행할 수 있습니다. 노트북 기능에 대한 자세한 설명은 "
+":doc:`../part05/index` 항목을 참조하십시오."
+msgstr ""
+
+# e95deebd6b584edcbc371a92d2173ce7
+#: ../../discovery/part01/structure.rst:73 64f21c27a962478e88bd33caaae56da6
+msgid "워크벤치"
+msgstr ""
+
+# 194be8a7ca674a2da1d194fd59e052cb
+#: ../../discovery/part01/structure.rst:74 934a6313b9394a61b800c3dff5a4f2eb
+msgid ""
+"SQL 기반 분석을 수행할 수 있습니다. 워크벤치 기능에 대한 자세한 설명은 :doc:`../part06/index` 항목을 "
+"참조하십시오."
+msgstr ""
+
+#: ../../discovery/part01/structure.rst:76 ca14f95ce77841268a1376ebb08b2fb0
+msgid "워크벤치 화면"
+msgstr ""
+
+# 1b3bd8c947c4459c920567c02c1406bb
+#: ../../discovery/part01/structure.rst:81 32d79ef6e41e46beb6dd232f7ab112be
+msgid "데이터 모니터링"
+msgstr ""
+
+# 62511a47e4854d56b87e94f7eb153d2a
+#: ../../discovery/part01/structure.rst:82 cbb7da399def4b9bbe6636c3c267015a
+msgid ""
+"데이터 쿼리 통계, 쿼리 로그 감사를 통해 데이터 사용에 대한 모니터링 기능을 제공합니다. 데이터 모니터링 기능에 대한 자세한 "
+"설명은 :doc:`../part02/data_monitoring` 항목을 참조하십시오."
+msgstr ""
+
+#: ../../discovery/part01/structure.rst:84 de7003642e484254a55feac117d44ef0
+msgid "모니터링 화면"
+msgstr ""
+
+# 2e05c47df74c469993b2166f720c19df
+#: ../../discovery/part01/structure.rst:90 58f53e43eeba4907ab812b3b907670c4
+msgid "사용자 권한 및 계정"
+msgstr ""
+
+# 820e2cecceaf48dd85a238c60864c8e0
+#: ../../discovery/part01/structure.rst:91 227c7889cb22426f8d3db6308e9436c5
+msgid "사용자를 추가, 삭제하거나 사용자의 권한을 관리합니다."
+msgstr ""
+
+# 5f5c1ac46cc34783a17d6d4fb815ff22
+#: ../../discovery/part01/structure.rst:95 cfa648c2e8d845d7a6901f228cd7a35e
+msgid "로그인/로그아웃"
+msgstr ""
+
+# 1601d0905a504f60b2c6bf36152f8744
+#: ../../discovery/part01/structure.rst:96 fc4e9313e7c8474f909fa09e68d42ae4
+msgid ""
+"계정을 부여받은 사용자는 Metatron Discovery에 로그인하여 사용 권한에 맞게 자유롭게 이용할 수 있습니다. 로그인 중인"
+" 계정은 외부 시스템에서도 로그아웃이 가능합니다."
+msgstr ""
+
