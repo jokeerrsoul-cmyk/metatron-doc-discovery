@@ -33,4 +33,4 @@ msgstr ""
 # df587a97e20749fb8d0105336f2c665e
 #: ../../discovery/part10/index.rst:9
 msgid "해당 기능은 Metatron Discovery 3.4.0 이후 버젼부터 지원합니다."
-msgstr ""
+msgstr "해당 기능은 Metatron Discovery 3.4.0 이후 버전부터 지원합니다."
