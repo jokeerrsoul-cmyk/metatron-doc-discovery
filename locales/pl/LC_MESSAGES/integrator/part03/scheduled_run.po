@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, metatron team
+# This file is distributed under the same license as the metatron discovery
+# docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: metatron discovery docs 0.4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+# f8454da5c72b41118d1e4a5ebd20a8b9
+#: ../../integrator/part03/scheduled_run.rst:4 933cfbb9c0324b48bb4649cce3f4e296
+msgid "워크플로우 실행 예약하기"
+msgstr ""
+
+# 900468a433644614967b2f37d63f1021
+#: ../../integrator/part03/scheduled_run.rst:9 79b4fb792c264282991614ab1fbf9a7a
+msgid ""
+"워크플로우를 정해진 주기에 따라 반복적으로 실행해야할 경우 이러한 실행을 예약하고, 그 결과를 SMS, 메신저, 이메일 등으로 "
+"보고받을 수 있습니다."
+msgstr ""
+
+# bab83669b31240f98d2b88f825dbbebd
+#: ../../integrator/part03/scheduled_run.rst:12
+#: fb572bd0c119441b818ec0bb29c6d1b8
+msgid "예약 실행 리스트"
+msgstr ""
+
+# dce944badf5b452298397f90253f4ed0
+#: ../../integrator/part03/scheduled_run.rst:14
+#: f2426dd500224943a071feeada1a3764
+msgid ""
+"워크플로우 에디터 우측 하단의 실행 내역 표시 영역에서 **Scheduled run** 탭을 클릭하면, 아래와 같이 해당 "
+"워크플로우에 대해 등록된 예약 실행 리스트가 나타납니다. 이 리스트에는 각 예약 실행 항목의 실행 현황이 표시되며, |exec| "
+"버튼을 누르면 해당 예약 건이 실행되고 |bin| 버튼을 누르면 삭제됩니다."
+msgstr ""
+
+#: ../../integrator/part03/scheduled_run.rst:6 e97678f1886e496ca1e009b5c1325229
+msgid "exec"
+msgstr ""
+
+#: ../../integrator/part03/scheduled_run.rst:7 820ac065fdc14d439caee30b19b7242d
+msgid "bin"
+msgstr ""
+
+# 158563ec15d8475a933dd3e2ab48e30c
+#: ../../integrator/part03/scheduled_run.rst:20
+#: 51bf62801a374f98838df195de5fe403
+msgid "예약 실행 추가하기"
+msgstr ""
+
+# 6680c5ff0e7544138cf726a8e0fcf87d
+#: ../../integrator/part03/scheduled_run.rst:22
+#: 50c136b4b8de49a8918ffdee64b3fd2c
+msgid ""
+"Scheduled run 영역에서 **+ Create execution schedule**\\을 클릭하면 다음과 같이 새 예약 "
+"실행을 생성하는 대화 상자가 열립니다. 아래 설명을 참조하여 각 필드 입력 후 **생성** 버튼을 클릭하십시오."
+msgstr ""
+
+# b4a26382e1ec4fb0ad939567cf676697
+#: ../../integrator/part03/scheduled_run.rst:26
+#: b8582b911a634f1fae46bd7c426440c1
+msgid "**Name:** 예약 실행의 이름을 입력합니다."
+msgstr ""
+
+# 4a750e2364f7415eaa80512d33f47629
+#: ../../integrator/part03/scheduled_run.rst:27
+#: 71283ce74c684b53929bb15244c34df9
+msgid "**Description:** 예약 실행에 대한 설명을 입력합니다."
+msgstr ""
+
+# 7ff0a51acd454193b0e718c9a89fe156
+#: ../../integrator/part03/scheduled_run.rst:28
+#: 3c329fbd105d43b4b9405fc97202dfd8
+msgid "**Tags:**"
+msgstr ""
+
+# 474b941d786f41f3982a997ae6ae350b
+#: ../../integrator/part03/scheduled_run.rst:29
+#: 827bbe65b0364f93968cb16e2e384076
+msgid "**Workflow:** 예약 실행할 워크플로우를 선택합니다."
+msgstr ""
+
+# 856586593c1a402b84584717133062e5
+#: ../../integrator/part03/scheduled_run.rst:30
+#: 9f74b53f62d14f7087564f40a2cc9540
+msgid "**Period:** 예약 실행될 기간의 시작과 끝을 설정합니다."
+msgstr ""
+
+# 3662844219e842f38646b2ce58ba7d2e
+#: ../../integrator/part03/scheduled_run.rst:31
+#: 3982f69381c24e34bebc88a9a408fbe3
+msgid "**Frequency:** 예약실행되는 기간 중 반복 주기를 설정합니다."
+msgstr ""
+
+# 235d60216f4b403d951c3f2b3f2c951a
+#: ../../integrator/part03/scheduled_run.rst:32
+#: 679e9d1c77d847c69a6eb4071cb9bf19
+msgid "**Concurrency:**"
+msgstr ""
+
+# 9aba75be0a4c43208a2d5858b72da176
+#: ../../integrator/part03/scheduled_run.rst:33
+#: 2c51ac0a3cc24206b3377f589b406c71
+msgid "**Timeout(min):**"
+msgstr ""
+
+# e3e8f2046c6641ad9a69217ae2c801ea
+#: ../../integrator/part03/scheduled_run.rst:34
+#: a3e519266a9d4717ad7a23cb75fe9778
+msgid "**Datasets:**"
+msgstr ""
+
+# ca3ae7e0949b419a85e89d745853db15
+#: ../../integrator/part03/scheduled_run.rst:35
+#: 90edd1772518445f8a5abd30368ec2a8
+msgid "**Configuration:**"
+msgstr ""
+
+# 23448ca8de1d4bc38e00e80680ff0599
+#: ../../integrator/part03/scheduled_run.rst:36
+#: f259e4b3b848483db1f47e7b9e65a453
+msgid "**Variables:**"
+msgstr ""
+
+# 7fffcc54656747f594cb058f8bdfb4ff
+#: ../../integrator/part03/scheduled_run.rst:37
+#: 2cb4d0937a454446a33dd5d8082014a5
+msgid "**Alert:**"
+msgstr ""
+

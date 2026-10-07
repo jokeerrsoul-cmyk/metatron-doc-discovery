@@ -38,7 +38,10 @@ release = __version__
 RTD_NEW_THEME = True
 
 def setup(app):
-    app.add_stylesheet('css/layout.css')
+    if hasattr(app, 'add_css_file'):
+        app.add_css_file('css/layout.css')
+    else:
+        app.add_stylesheet('css/layout.css')
 
 #def setup(app):
 #    app.add_javascript('js/switcing_lang.js')

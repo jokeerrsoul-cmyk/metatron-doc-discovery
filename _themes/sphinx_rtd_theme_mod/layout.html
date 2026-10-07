@@ -64,10 +64,11 @@
   {%- endif %}
 
   {# CSS #}
-  <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
   <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
   {%- for css in css_files %}
-    {%- if css|attr("rel") %}
+    {%- if css|attr("filename") %}
+  {{ css_tag(css) }}
+    {%- elif css|attr("rel") %}
   <link rel="{{ css.rel }}" href="{{ pathto(css.filename, 1) }}" type="text/css"{% if css.title is not none %} title="{{ css.title }}"{% endif %} />
     {%- else %}
   <link rel="stylesheet" href="{{ pathto(css, 1) }}" type="text/css" />
@@ -162,6 +163,12 @@
 					{% set eng_pdf_path = (kor_path | replace('index.html', 'latex/metatron-doc-user_en.pdf')) %} <!-- 영문 pdf 링크 -->
 					<li><a class="lang_sel" href="{{ kor_path }}">한국어로 보기</a></li>
 					<li><a class="lang_sel" href="{{ eng_pdf_path }}">View PDF</a></li>
+                 {% elif lang_attr == "pl" %} <!-- 현재 설정 언어가 폴란드어일 때 한국어/영어 링크 삽입 -->
+					{% set kor_path = (pathto(master_doc) | replace('index.html', '../index.html')) %} <!-- 하위 페이지에서 한국어 페이지로의 링크 -->
+					{% set kor_path = (kor_path | replace('#', '../index.html')) %} <!-- 최상위 페이지에서 한국어 페이지로의 링크 -->
+					{% set eng_path = (kor_path | replace('index.html', 'en/index.html')) %} <!-- 한국어 경로 기준 영문 페이지 링크 -->
+					<li><a class="lang_sel" href="{{ kor_path }}">한국어로 보기</a></li>
+					<li><a class="lang_sel" href="{{ eng_path }}">VIEW IN ENGLISH</a></li>
                  {% else %} <!-- 현재 설정 언어가 한국어일 때 영어 링크 삽입 -->
 					{% set eng_path = (pathto(master_doc) | replace('index.html', 'en/index.html')) %} <!-- 하위 페이지에서 영문 페이지로의 링크 -->
 					{% set eng_path = (eng_path | replace('#', './en/index.html')) %} <!-- 최상위 페이지에서 영문 페이지로의 링크 -->

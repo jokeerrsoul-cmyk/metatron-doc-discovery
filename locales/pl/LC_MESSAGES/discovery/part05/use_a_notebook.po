@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, metatron team
+# This file is distributed under the same license as the metatron discovery
+# docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: metatron discovery docs 0.4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+# e200b5937efa4c7baa8bc2870f781606
+#: ../../discovery/part05/use_a_notebook.rst:2 b08ab7a72bac4d2fa91ed3c73e5fc041
+msgid "노트북 활용하기"
+msgstr ""
+
+# 155c11ed9f3242efb53d1a700cc2c4d5
+#: ../../discovery/part05/use_a_notebook.rst:4 7c23cba5265f4715ba8fa0c08329f3b7
+msgid "노트북을 생성하였으면, 스크립트를 작성하고 REST API를 통해 서비스할 수 있습니다. 노트북 활용 절차는 다음과 같습니다."
+msgstr ""
+
+# 489a687596b942679efc27e1d0e990c8
+#: ../../discovery/part05/use_a_notebook.rst:7 40208832950d44938e624ad0f82b7536
+msgid "노트북 상세 조회"
+msgstr ""
+
+# 35f8d9011bbd46528f0a81b921fa36e1
+#: ../../discovery/part05/use_a_notebook.rst:9 7b38562ca59844a3a3e063d415356bbe
+msgid ""
+"워크스페이스 화면에서 분석하고자 하는 노트북을 선택하면, 아래와 같은 상세 화면이 나타납니다. 노트북 생성 시 입력했던 데이터 "
+"타입과 데이터 소스 이름, 개발 언어, 코드를 조회할 수 있습니다."
+msgstr ""
+
+#: ../../discovery/part05/use_a_notebook.rst:11
+#: 347bab5451624eec934849cbeb42b478
+msgid "노트북 상세"
+msgstr ""
+
+# 659b190ef1ea4080a6544186f9b559da
+#: ../../discovery/part05/use_a_notebook.rst:16
+#: ../../discovery/part05/use_a_notebook.rst:20
+#: e3a13db9f9a74a818b7cc40c391d7262 fa9fd8b6546a4bcb9752e2948cffb206
+msgid "노트북 코딩"
+msgstr ""
+
+# ee069a4f16254847bdc54e32c3eb6c9a
+#: ../../discovery/part05/use_a_notebook.rst:18
+#: ad44ab412911459ea66e067975b68d54
+msgid ""
+"노트북 상세 조회 화면에서 코드 란의 **상세**\\를 클릭하면, 노트북 페이지가 나타납니다. 노트북 페이지 상단에는 데이터셋을 "
+"로딩하는 코드가 삽입되어 있으며, 해당 셀을 실행하면 dataset 객체에 JSON 포맷의 데이터셋이 로딩됩니다."
+msgstr ""
+
+# 730a79f0bb054685925b95a72ce45b2e
+#: ../../discovery/part05/use_a_notebook.rst:24
+#: 0190981aaca94d61b03bc548162b3528
+msgid ""
+"위 화면은 Zeppeline을 선택한 경우에 나타나며, 생성 시 선택한 데이터의 로딩을 위한 셀이 삽입되어 있습니다. 3번째 셀부터"
+" 프로그램 코딩 작업을 수행한 후 개발이 완료되면 **저장** 버튼을 클릭하십시오."
+msgstr ""
+
+# 689b609921754dd8a0e34d53ed3356e1
+#: ../../discovery/part05/use_a_notebook.rst:28
+#: 6f6bccde3c6b491696550656c588e57c
+msgid "노트북 API 등록하기"
+msgstr ""
+
+# 94c8823a4a484d9b8dca9a58adbe90ac
+#: ../../discovery/part05/use_a_notebook.rst:30
+#: 39bbdace36e34c6eacb287194f4bb940
+msgid ""
+"작성한 노트북은 REST API 를 호출하여 결과값을 반환할 수 있습니다. 아래 설명을 참조하여 **리턴타입**\\을 선택한 후 "
+"**이름**\\과 **설명**\\을 기입하십시오."
+msgstr ""
+
+#: ../../discovery/part05/use_a_notebook.rst:32
+#: 3e160f63b2ca45009472265a0474ecc2
+msgid "노트북 API 등록 팝업"
+msgstr ""
+
+# 0c29c7a60f474048b0846378a49ff8bd
+#: ../../discovery/part05/use_a_notebook.rst:36
+#: 027d9825a8c7486aa965bb749050d119
+msgid "**HTML**: 노트북 스크립트 전체 실행 결과 화면을 HTML로 반환합니다."
+msgstr ""
+
+# b7a9341c494047c9bb66e9aa689c7800
+#: ../../discovery/part05/use_a_notebook.rst:37
+#: 8c9a3770bce14b9e87754cb8427a3bb0
+msgid ""
+"**JSON**: 노트북 스크립트에 작성된 사용자가 정의한 포맷의 JSON 객체를 결과로 반환합니다. 이 때 Metatron "
+"Discovery에서 제공하는 ``response.write(...)`` 함수를 사용하며, 예시 코드는 다음과 같습니다."
+msgstr ""
+
+# f0fc90db20394d2fa8eb51693017f379
+#: ../../discovery/part05/use_a_notebook.rst:39
+#: c6a76d2ed9ed45f48489cc29fc62f796
+msgid "R 기반 노트북: ``response.write(list(coefficient = 2, intercept = 0))``"
+msgstr ""
+
+# 8c1ebbd339554da5bf8be051833da36e
+#: ../../discovery/part05/use_a_notebook.rst:40
+#: 9dba3e7eba604880a361c953c78d54fd
+#, python-brace-format
+msgid "Python 기반 노트북: ``response.write({'coefficient' : 2.5, 'intercept' : 0})``"
+msgstr ""
+
+# f3d77cc7c8a5429890135aedeb590041
+#: ../../discovery/part05/use_a_notebook.rst:42
+#: d0fc056519154dee8a1a8ce67c9795a3
+msgid "**없음**: 노트북 스크립트를 실행하되 반환값은 제공하지 않습니다."
+msgstr ""
+
+# 6da448a4066b400e99f81c9ff5e997a8
+#: ../../discovery/part05/use_a_notebook.rst:45
+#: 937ac4a9bfe14c539944946743c625ef
+msgid ""
+"API 정보를 모두 입력한 후 **마침** 버튼을 클릭하면 API생성이 완료되고 아래와 같은 REST API URL을 확인할 수 "
+"있습니다. **Result** 버튼을 클릭하면 URL 실행 결과값을 팝업으로 조회할 수 있습니다."
+msgstr ""
+
+#: ../../discovery/part05/use_a_notebook.rst:47
+#: 671244d0915044e79b18cc5ac7e2830f
+msgid "API 상세"
+msgstr ""

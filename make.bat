@@ -13,6 +13,7 @@ set BUILDDIR=docs
 if "%1" == "" goto help
 if "%1" == "all" goto all
 if "%1" == "en" goto en
+if "%1" == "pl" goto pl
 if "%1" == "html" goto html
 
 %SPHINXBUILD% >NUL 2>NUL
@@ -33,18 +34,28 @@ goto end
 
 :help
 %SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS%
+goto end
 
 :all
 echo.#1 Build for Korean
 %SPHINXBUILD% -b html . %BUILDDIR%
 echo.#2 Build for English
 %SPHINXBUILD% -b html -D language=en . %BUILDDIR%\en
+echo.#3 Build for Polish
+%SPHINXBUILD% -b html -D language=pl . %BUILDDIR%\pl
+goto end
 
 :en
 %SPHINXBUILD% -b html -D language=en . %BUILDDIR%\en
+goto end
+
+:pl
+%SPHINXBUILD% -b html -D language=pl . %BUILDDIR%\pl
+goto end
 
 :html
 %SPHINXBUILD% -b html . %BUILDDIR%
+goto end
 
 :end
 popd

@@ -1,0 +1,187 @@
+# Copyright (C) 2019, metatron team
+# This file is distributed under the same license as the metatron discovery
+# docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: metatron discovery docs 0.4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-10 16:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"Language-Team: Polish <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+# 08c23e7881c342498a8109f70a81f9ff
+#: ../../anomaly/part05/index.rst:2 e1ede04994e646b38475d9a8fdf9ac78
+msgid "알고리즘"
+msgstr ""
+
+# 62edfefec30a4a318d1e435d9db507b9
+#: ../../anomaly/part05/index.rst:6 afd47c4b2b034424ac2a76eadd3abea2
+msgid ""
+"Metatron Anomaly는 머신러닝 알고리즘을 활용하여 시계열 데이터의 비정상 수치에 대해 알람을 발생시킵니다. 이러한 이상치"
+" 탐지 알고리즘은 학습 시 비정상 sample을 활용하는지 여부에 따라 두 가지로 나누어 집니다."
+msgstr ""
+
+# f37e1b742d6a44ffb2bf4521ef6f3470
+#: ../../anomaly/part05/index.rst:8 d2771f28e345494098392ebfc2e4ae39
+msgid ""
+"**Supervised Anomaly Detection**\\: 정상/비정상 여부가 존재하는 학습 데이터 셋을 사용해서 이상치를 "
+"검출하는 지도학습 알고리즘. 정확도가 높으나 비정상 sample 취득에 시간과 비용 소모."
+msgstr ""
+
+# 49a73f5409d543a798a7165fa4c8aa1f
+#: ../../anomaly/part05/index.rst:9 d46f4d34e23945429155b6c132888edd
+msgid ""
+"**Unsupervised Anomaly Detection**\\: 대부분의 데이터가 정상 sample이라는 가정으로, 데이터 셋에"
+" 비정상 여부가 존재하지 않더라도 이상치를 검출할 수 있는 비지도학습 알고리즘."
+msgstr ""
+
+# 0471165c9df14bb1b49515ba37bf5ec8
+#: ../../anomaly/part05/index.rst:11 955dcf8b649a4d428e59a33940913694
+msgid ""
+"Metatron Anomaly는 일반적인 정상/비정상 데이터 label이 없는 모든 시계열 데이터에서도 이상 탐지가 가능하도록 "
+"Unsupervised 알고리즘 학습을 기본으로 제공합니다."
+msgstr ""
+
+# 7bb47d6daac74806be20f0bb837938c1
+#: ../../anomaly/part05/index.rst:13 bd7aa55cfb7f405691d20d7b1175080e
+msgid ""
+"Metatron Anomaly에서는 이러한 알고리즘들을 관리하고 신규 알고리즘을 추가할 수 있는 **알고리즘 매니저**\\기능을 "
+"제공합니다. 알고리즘 매니저는 다음 세 페이지로 이루어집니다."
+msgstr ""
+
+# 89adab61f1644949be7b055e5c1570c4
+#: ../../anomaly/part05/index.rst:15 50f3b060b0fb438a8e8efb8d4b0e9b22
+msgid ":ref:`algorithm_list`"
+msgstr ""
+
+# febcf060633d4fb78e133dc9071b63e0
+#: ../../anomaly/part05/index.rst:16 6e8c1c86bfe24b55a10facd0ccc2e5ce
+msgid ":ref:`create_new_algorithm`"
+msgstr ""
+
+# 9f8fed78a8134d078a36bf7f3ffcb737
+#: ../../anomaly/part05/index.rst:17 7e48593346474c968ca18419b741242a
+msgid ":ref:`algorithm_details`"
+msgstr ""
+
+# 40c96677d02d47448634592f7b80ed06
+#: ../../anomaly/part05/index.rst:22 9afcd5ddd8d74e46b0267f62aa8080f7
+msgid "알고리즘 리스트"
+msgstr ""
+
+# fff73fa064614cd78a878f30ebe0c867
+#: ../../anomaly/part05/index.rst:24 5ff98f50c3da4c0d8fb5a138d23c532d
+msgid ""
+"Anomaly Detection 하위 메뉴 중 **Algorithm** 탭으로 들어가면 모델 학습에 사용 가능한 알고리즘을 "
+"리스트에서 확인할 수 있습니다."
+msgstr ""
+
+#: ../../anomaly/part05/index.rst:26 32ce224835ae4c68a302169ffd8498ea
+msgid "algorithm manager"
+msgstr ""
+
+# 5fdc09ccbf764beeae2856487addb173
+#: ../../anomaly/part05/index.rst:31 5f85988f04f54f1887f0719b6e5f114f
+msgid "기본적으로 Metatron Anomaly는 아래의 7가지 통계 알고리즘들을 시스템에 내장하고 있습니다."
+msgstr ""
+
+# bc99130fd610458186e93f1367e9fbfe
+#: ../../anomaly/part05/index.rst:33 59d0f2965c5246d39d53e7a39b121cf6
+msgid "Seasonal Median Model"
+msgstr ""
+
+# cd6a87e09b4b4d37b876fab1306f1616
+#: ../../anomaly/part05/index.rst:34 278b8a3ba5f144469151dce16954f110
+msgid "Statistical Mean Model"
+msgstr ""
+
+# 5133ab90ef12490d9ebba61579d8bad4
+#: ../../anomaly/part05/index.rst:35 550cae944e9a46b99ba81f9381528c53
+msgid "Regression Forecast Model"
+msgstr ""
+
+# a83df643450e4b3d9c75a7fb7e0399a2
+#: ../../anomaly/part05/index.rst:36 ee1d2ac5eea14ef88be0d52718a443f6
+msgid "Naive Forecast Model"
+msgstr ""
+
+# 1f56f04710f94313b4aa6ff6aefc9be1
+#: ../../anomaly/part05/index.rst:37 8788dc4827824bcbbca2c954d64a3a7d
+msgid "Simple Exponential Smoothing Forecast Model"
+msgstr ""
+
+# 5b01d9da7fe348ca841857a7e2294a1a
+#: ../../anomaly/part05/index.rst:38 b55934abfb664303b75757b01ff38ecd
+msgid "Triple Exponential Smoothing Forecast Model"
+msgstr ""
+
+# f020514b651a438d904808bf3eba3760
+#: ../../anomaly/part05/index.rst:39 20247a9426614d119bfd0c39a4319953
+msgid "Long Triple Exponential Smoothing Forecast Model"
+msgstr ""
+
+# cc4d17cf8ac040a9aa8ae6fa8f7ae8dc
+#: ../../anomaly/part05/index.rst:44 40c18aeb37c24bd0bd81058b5308f68e
+msgid "신규 알고리즘 생성"
+msgstr ""
+
+# d13f976b8d134272b08b01cd6cfda9fd
+#: ../../anomaly/part05/index.rst:46 5d437ca8fd074898aedc01612af34cea
+msgid "알고리즘 페이지 우측 상단의 **+ Algorithm** 버튼을 클릭하면 신규 알고리즘을 추가할 수 있습니다."
+msgstr ""
+
+#: ../../anomaly/part05/index.rst:48 ../../anomaly/part05/index.rst:54
+#: ../../anomaly/part05/index.rst:69 0672e9590bff4662be3a8c2d1f7c7ff5
+#: 2a9997072be44f939a610601eb7f0e4a a2a537c2e7634b09b77ca22f1701fec4
+msgid "new algorithm"
+msgstr ""
+
+# d21b3a01f1034489b511f18aa00f919b
+#: ../../anomaly/part05/index.rst:52 a2e591e7e12b4a1ca7aea25ec318e632
+msgid ""
+"신규로 생성할 알고리즘의 이름, 설명을 입력합니다. 알고리즘 생성에 기본적으로 사용 가능한 작업 환경은 Jupyter "
+"Notebook이며, Python 언어를 사용할 수 있습니다."
+msgstr ""
+
+# acf6a85f176148d5bab695a0cf7da7ad
+#: ../../anomaly/part05/index.rst:61 96ac186647dc4a34a61d083715d24ca4
+msgid "알고리즘 상세"
+msgstr ""
+
+# f59bf2584fd14739b56720410171587e
+#: ../../anomaly/part05/index.rst:63 e4ac5caca8df44d28868f01cbd6d9859
+msgid ""
+"신규 알고리즘을 생성하면 상세 페이지로 이동합니다. **구분**\\에는 사용자가 직접 생성한 알고리즘이면 확장, 시스템에 기본 "
+"구현된 알고리즘이면 기본으로 표시됩니다."
+msgstr ""
+
+# 802af167797941fd9777829086ab0b7c
+#: ../../anomaly/part05/index.rst:65 6a474d49fec24098aeda80b69a632af8
+msgid ""
+"**Notebook** 옆의 |icon_link|\\를 누르면 신규 알고리즘을 구현할 수 있는 Jupyter Notebook "
+"환경으로 이동합니다. 기본 템플릿으로 linear regression 알고리즘이 구현되어 있으며, 사용자가 적절히 변형하여 신규 "
+"알고리즘을 구현할 수 있습니다."
+msgstr ""
+
+#: ../../anomaly/part05/index.rst:4 999994cbc2954c4781407a64fa23f10c
+msgid "icon_link"
+msgstr ""
+
+# 475bb1f0c7e84cb7b595831aa1ab1cf0
+#: ../../anomaly/part05/index.rst:67 dbca204428b34c28a82bdb578100b45a
+msgid ""
+"구현된 알고리즘을 테스트하여 시스템에 적합한지 확인하여야 합니다. 하단의 Test 버튼을 누르면 구현된 알고리즘이 시스템에 적합한지"
+" 내부적으로 테스트를 진행합니다. **Status**\\에 그 결과가 나타납니다. 테스트 결과는 한번도 테스트한 적이 없으면 "
+"**N/A**\\, 실패하면 **Fail**\\, 성공하면 **Available**\\로 기록됩니다."
+msgstr ""
+
